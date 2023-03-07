@@ -19,6 +19,7 @@ body {
     padding: 0px;
 }
 
+/*Header*/
 header {
     position: relative;
     z-index: 1;
@@ -110,7 +111,7 @@ nav ul li a {
     margin: 0px;
 }
 
-
+/*Section slide*/
 .area_slide {
     background-image: url(../img/slide_1.jpg);
     background-size: cover;
@@ -184,8 +185,6 @@ nav ul li a {
     margin: 0px;
 }
 
-
-
 .carousel-control-next {
     right: 40px !important;
     opacity: 1 !important;
@@ -224,11 +223,12 @@ nav ul li a {
     transition: all ease 300ms;
 }
 
+/*Section a casa*/
 .container_casa {
     display: flex;
     justify-content: center;
     width: 100%;
-    padding: 0px 0px 60px 0px; 
+    padding: 0px 0px 60px 0px;
 }
 
 .container_casa_int {
@@ -298,18 +298,131 @@ nav ul li a {
     border-radius: 10px;
 }
 
+/*Section serviços*/
 
+.container_servicos {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #F9F9F9;
+    padding: 40px 0px 70px 0px;
+}
 
+.container_servicos_int {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    width: 100%;
+    max-width: 1280px;
+}
 
+.area_servicos {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
 
+.btn_servicos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #292E6B;
+    border-radius: 16px;
+    padding: 10px 12px;
+    max-width: max-content;
+}
 
+.btn_servicos h2 {
+    font-size: 22px;
+    color: var(--font-color-principal);
+    font-weight: var(--font-weight-700);
+    letter-spacing: var(--letter-spacing);
+    margin: 0px;
+}
 
+.img_servicos_1 {
+    background-image: url(../img/cuidados.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 300px;
+    width: 100%;
+    height: 445px;
+    cursor: pointer;
+    transition: all ease 200ms;
+}
 
+.img_servicos_2 {
+    background-image: url(../img/acompanhamento.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 300px;
+    width: 100%;
+    height: 445px;
+    cursor: pointer;
+    transition: all ease 200ms;
+}
 
+.img_servicos_3 {
+    background-image: url(../img/enfermagem.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 300px;
+    width: 100%;
+    height: 445px;
+    cursor: pointer;
+    transition: all ease 200ms;
+}
 
+.img_servicos_4 {
+    background-image: url(../img/socializacao.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 300px;
+    width: 100%;
+    height: 445px;
+    cursor: pointer;
+    transition: all ease 200ms;
+}
 
+.img_servicos_1:hover,
+.img_servicos_2:hover,
+.img_servicos_3:hover,
+.img_servicos_4:hover {
+    transform: translateY(-20px);
+}
 
+.img_servicos_1:hover>.area_text_servicos,
+.img_servicos_2:hover>.area_text_servicos,
+.img_servicos_3:hover>.area_text_servicos,
+.img_servicos_4:hover>.area_text_servicos {
+    display: flex;
+}
 
+.area_text_servicos {
+    display: none;
+    justify-content: flex-end;
+    flex-direction: column;
+    height: 100%;
+    gap: 15px;
+    padding: 0px 30px 50px 30px;
+    background: linear-gradient(0deg, #F3F3F3 26.14%, rgba(217, 217, 217, 0) 106.8%);
+}
 
+.title_servicos h2 {
+    font-weight: var(--font-weight-700);
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: var(--letter-spacing);
+    color: #292E6B;
+    margin: 0px;
+}
 
-
+.sub_title_servicos p {
+    font-weight: var(--font-weight-400);
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: var(--letter-spacing);
+    color: var(--font-color-info);
+}
