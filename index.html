@@ -42,7 +42,7 @@
 
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 
-        <ol class="carousel-indicators">
+        <ol class="carousel-indicators principal">
             <div data-target="#carouselExampleControls" data-slide-to="0" class="active"></div>
             <div data-target="#carouselExampleControls" data-slide-to="1"></div>
             <div data-target="#carouselExampleControls" data-slide-to="2"></div>
@@ -219,7 +219,7 @@
                             </h2>
                         </div>
                     </a>
-                  
+
 
                 </div>
                 <div class="img_casa">
@@ -248,7 +248,8 @@
 
                         <div class="sub_title_servicos">
                             <p>
-                                Formada por profissionais de diversas áreas da saúde capacitados para atender os nossos idosos.
+                                Formada por profissionais de diversas áreas da saúde capacitados para atender os nossos
+                                idosos.
                             </p>
                         </div>
 
@@ -306,8 +307,6 @@
                     </div>
                 </div>
 
-
-
             </div>
 
             <a href="#">
@@ -315,25 +314,146 @@
                     <h2>Veja os nossos Serviços</h2>
                 </div>
             </a>
-         
-
 
         </div>
-
     </div>
 
 
 
 
+    <div class="container_atendimento">
+        <div class="container_atendimento_int">
+            <div class="title_atendimento">
+                <h2>Modalidades de Atendimento</h2>
+                <div class="border"></div>
+            </div>
+            <div class="area_atendimento">
+
+                <div class="atendimento_card">
+                    <div class="area_texts_residencia">
+
+                        <div class="title_residencia">
+                            <h2>Residência Permanente:</h2>
+                        </div>
+                        <div class="sub_title_residencia">
+                            <p>
+                                Oferecemos um conceito diferenciado de residência sênior permanente. Os idosos desfrutam
+                                das
+                                vantagens de morar em um lar tranquilo e moderno. Além de terem a disposição serviços
+                                voltados para o bem-estar e a socialização dos residentes.
+                            </p>
+                        </div>
+                        <div class="info_residencia">
+                            <a href="#">
+                                <p>Saiba mais +</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="atendimento_card">
+                    <div class="area_texts_residencia">
+
+                        <div class="title_residencia">
+                            <h2>Residência Temporária:</h2>
+                        </div>
+                        <div class="sub_title_residencia">
+                            <p>
+                                A Casa São Luiz também oferece a modalidade de residência temporária. Ela é indicada
+                                para idosos que necessitam passar um tempo conosco, seja um período de férias ou um
+                                período de recuperação, por exemplo, decorrente de uma intervenção cirúrgica.
+                            </p>
+                        </div>
+
+                        <div class="info_residencia">
+                            <a href="#">
+                                <p>Saiba mais +</p>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container_slide">
+        <div class="container_slide_int">
+
+            <div class="area_slide_servicos">
+
+                <div id="carouselExampleControls_2" class="carousel slide" data-ride="carousel">
+
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="img_slide_1">
+                                    <img src="img/img_slide_1.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="row">
+
+                                <div class="img_slide_1">
+                                    <img src="img/img_slide_1.jpg" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="row">
+
+                                <div class="img_slide_1">
+                                    <img src="img/img_slide_1.jpg" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="area_text_slide">
+                    <div class="text_slide_servicos">
+                        <p>
+                            A Casa São Luiz possui infraestrutura e serviços de um hotel, com o aconchego de um
+                            residencial
+                            sênior, um lugar para chamar de lar. Possuímos acomodações individuais e duplas que estão
+                            adaptadas
+                            para receber os idosos com todo o conforto. Conheça nossos quartos e todas as comodidades
+                            que os
+                            nossos idosos têm acesso na instituição.
+                        </p>
+                    </div>
+                    <ol class="carousel-indicators position">
+                        <div data-target="#carouselExampleControls_2" data-slide-to="0" class="img_icon_slide active">
+                            <img src="img/img_icon_slide_1.jpg" alt="">
+                        </div>
+                        <div data-target="#carouselExampleControls_2" data-slide-to="1" class="img_icon_slide">
+                            <img src="img/img_icon_slide_2.jpg" alt="">
+                        </div>
+                        <div data-target="#carouselExampleControls_2" data-slide-to="2" class="img_icon_slide">
+                            <img src="img/img_icon_slide_3.jpg" alt="">
+                        </div>
+                    </ol>
+
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
 
 
 
-
-
-
-
-
-
+ 
 
 
 
@@ -343,6 +463,15 @@
     <script type="text/javascript">
         $('.carousel').carousel({
             interval: 5000000000000
+
+        });
+
+
+        let selected1 = $('.img_icon_slide');
+        selected1.on('click', function () {
+
+            selected1.removeClass('active');
+            $(this).addClass('active');
 
         });
     </script>
