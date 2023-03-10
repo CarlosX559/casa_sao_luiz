@@ -206,11 +206,13 @@ nav ul li a {
     width: max-content !important;
 }
 
-.carousel-indicators {
+.carousel-indicators.principal {
     display: flex;
     align-items: center;
     gap: 10px;
-    bottom: 100px !important;
+    top: 600px !important;
+    bottom: 0px !important;
+    height: auto;
 }
 
 .carousel-indicators.principal .active {
@@ -600,6 +602,7 @@ nav ul li a {
 .img_slide_1 img {
     max-width: max-content;
     width: 100%;
+    padding: 0px 10px;
 }
 
 .img_icon_slide.active img {
@@ -615,22 +618,199 @@ nav ul li a {
     
 }
 
+/*Tour*/
+#container_tour {
+    background-image: url(../img/bg_tour.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+}
+
+.container_tour {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.container_tour_int {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.area_tour {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.title_tour h2 {
+    text-align: center;
+    font-weight: var(--font-weight-700);
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: var(--letter-spacing);
+    color: var(--font-color-principal);
+    margin: 0px;
+}
+
+.btn_tour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #292E6B;
+    border-radius: 16px;
+    padding: 10px 14px;
+    max-width: max-content;
+}
+
+.btn_tour h2 {
+    font-weight: var(--font-weight-700);
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: var(--letter-spacing);
+    color: var(--font-color-principal);
+    margin: 0px;
+}
 
 
+/*Galeria*/
+
+.container_galery {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 100px 0px 140px 0px;
+}
+
+.container_galery_int {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1280px;
+}
 
 
+.area_galery {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 0fr);
+    width: 100%;
+    gap: 20px;
+}
+
+.area_galery img {
+    border-radius: 4px;
+
+}
 
 
+.modal_galery {
+    display: none;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+}
 
+.area_modal_galery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
 
+/*Comentarios*/
 
+.container_comments {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-image: url(../img/bg_comments.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 376px;
+    margin-bottom: 160px;
+}
 
+.container_comments_int {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1280px;
+   
+}
 
+.area_comments {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 580px;
+}
 
+.area_comments_int {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    height: 360px;
+}
 
+.comment h2 {
+    font-weight: var(--font-weight-500);
+    font-size: 22px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: var(--letter-spacing);
+    color: var(--font-color-principal);
+    margin: 0px;
+}
 
+.author h2 {
+    font-weight: var(--font-weight-700);
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: var(--letter-spacing);
+    color: #FABF13;
+    margin: 0px;
+}
 
+.carousel-indicators.principal_2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    top: 240px !important;
+    margin: 0px !important;
+    height: auto;
+}
 
+.carousel-indicators.principal_2 .active {
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 100px;
+    background: var(--font-color-principal);
+}
 
-
-
+.carousel-indicators.principal_2 div {
+    width: 14px;
+    height: 14px;
+    border-radius: 100px;
+    background: rgba(217, 217, 217, 0.54);
+    transition: all ease 300ms;
+    cursor: pointer;
+}
