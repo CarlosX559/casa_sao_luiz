@@ -1318,8 +1318,11 @@ footer {
         justify-content: center;
         width: 100%;
         flex-wrap: wrap;
-        gap: 20px;
+        gap: 30px;
         padding: 0px 20px;
+    }
+    .container_servicos_int {
+        gap: 30px;
     }
 
     /*Atendimento*/
@@ -1585,6 +1588,11 @@ footer {
         font-size: 14px;
     }
 
+    .carousel-control-prev svg, .carousel-control-next svg {
+        width: 12px;
+        height: 22px;
+    }
+
     .carousel-control-prev {
         left: 10px !important;
     }
@@ -1661,6 +1669,10 @@ footer {
     }
     .btn_tour h2 {
         font-size: 16px;
+    }
+
+    .area_galery img {
+        max-width: 340px;
     }
 
     /*Comentarios*/
