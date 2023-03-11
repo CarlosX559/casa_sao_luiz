@@ -619,7 +619,7 @@ nav ul li a {
 }
 
 .img_icon_slide.active img {
-    box-shadow: 8px 12px 10px rgb(0 0 0 / 40%);
+    /*box-shadow: 8px 12px 10px rgb(0 0 0 / 40%);*/
     transition: all ease 200ms;
 }
 
