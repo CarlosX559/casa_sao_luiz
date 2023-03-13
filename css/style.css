@@ -59,9 +59,11 @@ header {
     width: 100%;
     filter: drop-shadow(0 3px 3px rgba(0, 0, 0, .4));
 }
+
 .menu_mobile {
     display: none;
 }
+
 nav {
     width: 100%;
 }
@@ -75,6 +77,7 @@ nav ul {
     padding: 0px;
     width: 100%;
 }
+
 nav ul li .active_menu {
     color: #FABF13;
 }
@@ -115,6 +118,7 @@ nav ul li a {
     border-radius: 16px;
     padding: 10px 15px;
     max-width: max-content;
+    transition: all ease-in 100ms;
 }
 
 .btn_tour a {
@@ -123,6 +127,10 @@ nav ul li a {
     font-weight: var(--font-weight-700);
     letter-spacing: var(--letter-spacing);
     margin: 0px;
+}
+
+.btn_tour:hover {
+    background: #1F2244;
 }
 
 /*Section slide*/
@@ -188,6 +196,7 @@ nav ul li a {
     border-radius: 16px;
     padding: 10px 14px;
     max-width: max-content;
+    transition: all ease-in 100ms;
 }
 
 .btn_slide h2 {
@@ -198,6 +207,15 @@ nav ul li a {
     color: var(--font-color-principal);
     text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
     margin: 0px;
+}
+
+.btn_slide:hover {
+    background: #7E5F00;
+    box-shadow: 0px 4px 43px rgba(255, 255, 255, 0.2);
+}
+
+.btn_slide:hover>h2 {
+    color: #2A2E68;
 }
 
 .carousel {
@@ -309,6 +327,7 @@ nav ul li a {
     border-radius: 16px;
     padding: 10px 12px;
     max-width: max-content;
+    transition: all ease-in 100ms;
 }
 
 .btn_casa h2 {
@@ -318,6 +337,11 @@ nav ul li a {
     letter-spacing: var(--letter-spacing);
     color: var(--font-color-principal);
     margin: 0px;
+}
+
+.btn_casa:hover {
+    background: #1F2244;
+
 }
 
 .img_casa img {
@@ -360,6 +384,7 @@ nav ul li a {
     border-radius: 16px;
     padding: 10px 12px;
     max-width: max-content;
+    transition: all ease-in 100ms;
 }
 
 .btn_servicos h2 {
@@ -368,6 +393,11 @@ nav ul li a {
     font-weight: var(--font-weight-700);
     letter-spacing: var(--letter-spacing);
     margin: 0px;
+}
+
+.btn_servicos:hover {
+    background: #1F2244;
+
 }
 
 .img_servicos_1 {
@@ -687,6 +717,7 @@ nav ul li a {
     border-radius: 16px;
     padding: 10px 14px;
     max-width: max-content;
+    transition: all ease-in 100ms;
 }
 
 .btn_tour h2 {
@@ -698,6 +729,9 @@ nav ul li a {
     margin: 0px;
 }
 
+.btn_tour:hover {
+    background: #1F2244;
+}
 
 /*Galeria*/
 
@@ -888,6 +922,7 @@ nav ul li a {
     border-radius: 16px;
     padding: 10px 15px;
     max-width: max-content;
+    transition: all ease-in 100ms;
 }
 
 .btn_blog h2 {
@@ -897,6 +932,10 @@ nav ul li a {
     letter-spacing: var(--letter-spacing);
     color: var(--font-color-principal);
     margin: 0px;
+}
+
+.btn_blog:hover {
+    background: #1F2244;
 }
 
 .area_blog_post {
@@ -926,6 +965,7 @@ nav ul li a {
     border-radius: 16px;
     padding: 10px 12px;
     max-width: max-content;
+    transition: all ease-in 100ms;
 }
 
 .btn_blog_post h2 {
@@ -934,6 +974,10 @@ nav ul li a {
     font-weight: var(--font-weight-700);
     letter-spacing: var(--letter-spacing);
     margin: 0px;
+}
+
+.btn_blog_post:hover {
+    background: #1F2244;
 }
 
 .img_blog_1 {
@@ -1040,6 +1084,7 @@ nav ul li a {
     border-radius: 36px;
     width: 100%;
     padding: 22px 40px 22px 40px;
+    cursor: pointer;
 }
 
 .quest {
@@ -1244,6 +1289,12 @@ footer {
     margin: 0px;
 }
 
+.logo_footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
 .logo_footer img {
     width: 100%;
     max-width: max-content;
@@ -1327,6 +1378,7 @@ footer {
         gap: 30px;
         padding: 0px 20px;
     }
+
     .container_servicos_int {
         gap: 30px;
     }
@@ -1401,10 +1453,12 @@ footer {
     .area_parceiros {
         padding: 0px 20px;
     }
+
     /*Footer*/
     footer {
         padding: 60px 0px 40px 0px
     }
+
     .area_footer {
         align-items: baseline;
         flex-direction: column;
@@ -1412,7 +1466,7 @@ footer {
         width: 100%;
         max-width: max-content;
         gap: 30px;
-     
+
     }
 
 
@@ -1422,7 +1476,7 @@ footer {
 @media(max-width: 768px) {
     .container_text_slide {
         align-items: flex-end;
-        
+
     }
 
     .carousel-indicators.principal {
@@ -1453,6 +1507,7 @@ footer {
         font-size: 16px;
         filter: drop-shadow(0 3px 3px rgba(0, 0, 0, .4));
     }
+
     /*Tour*/
     .title_tour h2 {
         font-size: 30px;
@@ -1575,7 +1630,7 @@ footer {
 
 
 @media(max-width: 480px) {
-    
+
     .area_texts_slide {
         max-width: 350px;
     }
@@ -1583,9 +1638,11 @@ footer {
     .area_texts_slide {
         padding: 0px 0px 80px 0px;
     }
+
     .btn_slide h2 {
         font-size: 16px;
     }
+
     .title_slide h2 {
         font-size: 22px;
     }
@@ -1594,7 +1651,8 @@ footer {
         font-size: 14px;
     }
 
-    .carousel-control-prev svg, .carousel-control-next svg {
+    .carousel-control-prev svg,
+    .carousel-control-next svg {
         width: 12px;
         height: 22px;
     }
@@ -1615,6 +1673,7 @@ footer {
     .title_casa h2 {
         font-size: 26px;
     }
+
     .sub_title_casa p {
         font-size: 14px;
     }
@@ -1631,24 +1690,31 @@ footer {
     .container_atendimento {
         padding: 60px 0px;
     }
+
     .container_atendimento_int {
         gap: 30px;
     }
+
     .area_texts_residencia {
         gap: 15px;
     }
+
     .title_residencia h2 {
         font-size: 20px;
     }
+
     .sub_title_residencia p {
         font-size: 14px;
     }
+
     .atendimento_card {
         padding: 30px 50px 30px 50px;
     }
+
     .title_atendimento {
         gap: 8px;
     }
+
     .title_atendimento h2 {
         font-size: 26px;
     }
@@ -1666,13 +1732,16 @@ footer {
     #container_tour {
         height: 200px;
     }
+
     .area_tour {
         gap: 20px;
     }
+
     .title_tour h2 {
         font-size: 22px;
         line-height: 26px;
     }
+
     .btn_tour h2 {
         font-size: 16px;
     }
@@ -1685,13 +1754,16 @@ footer {
     .container_comments {
         height: 300px;
     }
+
     .area_comments_int {
         padding: 0px 20px;
         height: 300px;
     }
+
     .comment h2 {
         font-size: 18px;
     }
+
     .author h2 {
         font-size: 20px;
     }
@@ -1700,6 +1772,7 @@ footer {
     .area_blog_post {
         margin-top: 50px;
     }
+
     .title_blog h2 {
         font-size: 26px;
     }
@@ -1711,6 +1784,7 @@ footer {
     .btn_blog h2 {
         font-size: 16px;
     }
+
     .title_blog_post h2 {
         font-size: 18px;
     }
@@ -1727,12 +1801,15 @@ footer {
     .title_faq {
         margin-bottom: 20px;
     }
+
     .title_faq h2 {
         font-size: 26px;
     }
+
     .quest h2 {
         font-size: 16px;
     }
+
     .aswer h2 {
         font-size: 16px;
     }
@@ -1741,26 +1818,32 @@ footer {
     .container_parceiros {
         padding: 40px 0px;
     }
+
     .area_parceiros {
         gap: 20px;
     }
+
     .title_parceiros {
         gap: 8px;
     }
+
     .title_parceiros h2 {
         font-size: 26px;
     }
 
     /*Footer*/
-    .footer_social_text p  {
+    .footer_social_text p {
         font-size: 18px;
     }
+
     iframe {
         width: 375px;
     }
+
     .telefone h2 {
         font-size: 20px;
     }
+
     .endereco h2 {
         font-size: 20px;
     }
@@ -1768,6 +1851,7 @@ footer {
     .copy {
         padding: 30px 0px 30px 0px;
     }
+
     .area_copy p {
         font-size: 12px;
     }

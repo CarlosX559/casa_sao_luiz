@@ -50,7 +50,7 @@ function modal() {
 
 function faq() {
 
-    const quest = document.querySelectorAll(".quest");
+    const quest = document.querySelectorAll(".faq_quests");
     const aswer = document.querySelectorAll(".aswer");
     const img_icon = document.querySelectorAll('.quest img');
 
