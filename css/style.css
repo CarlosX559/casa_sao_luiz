@@ -75,6 +75,13 @@ nav ul {
     padding: 0px;
     width: 100%;
 }
+nav ul li .active_menu {
+    color: #FABF13;
+}
+
+nav ul li a:hover {
+    color: #FABF13;
+}
 
 nav ul li {
     text-align: center;
@@ -90,7 +97,7 @@ a {
 
 a:hover {
     text-decoration: none !important;
-    color: var(--font-color-principal) !important;
+    color: var(--font-color-principal);
 }
 
 nav ul li a {
