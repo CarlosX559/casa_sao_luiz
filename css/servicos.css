@@ -59,9 +59,11 @@ header {
     width: 100%;
     filter: drop-shadow(0 3px 3px rgba(0, 0, 0, .4));
 }
+
 .menu_mobile {
     display: none;
 }
+
 nav {
     width: 100%;
 }
@@ -80,7 +82,7 @@ nav ul li a:hover {
     color: #FABF13;
 }
 
-nav ul li .active_menu { 
+nav ul li .active_menu {
     color: #FABF13;
 }
 
@@ -295,7 +297,7 @@ nav ul li a {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 490px; 
+    height: 490px;
 }
 
 .area_doador {
@@ -406,9 +408,9 @@ nav ul li a {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 788px; 
     filter: drop-shadow(0 27px 28px rgba(0, 0, 0, 0.35));
     margin: 60px 0px 60px 0px;
+    padding: 60px 0px 60px 0px;
 }
 
 .container_formulario_int {
@@ -421,17 +423,18 @@ nav ul li a {
 
 .area_formulario {
     display: flex;
-    align-items: center;
     justify-content: space-between;
     width: 100%;
 }
 
 .area_text_formulario {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
     gap: 40px;
     max-width: 470px;
+    height: 490px;
 }
 
 .title_contato h2 {
@@ -477,7 +480,7 @@ nav ul li a {
 
 input[type=radio] {
     width: 18px;
-    height: 18px ;
+    height: 18px;
 }
 
 form label {
@@ -510,7 +513,7 @@ form label {
     padding: 18px 0px 0px 35px;
 }
 
-input { 
+input {
     width: 100%;
     outline: none;
     border: none;
@@ -562,6 +565,7 @@ input::placeholder {
     letter-spacing: var(--letter-spacing);
     color: #818181;
     padding: 10px 15px 10px 15px;
+    cursor: pointer;
 }
 
 input[type="file"] {
@@ -691,6 +695,67 @@ footer {
 }
 
 
+@media(max-width: 1024px) {
+
+    .area_container_header {
+        gap: 0px;
+        justify-content: center;
+        padding: 0px 20px;
+    }
+
+    .container_header_int {
+        max-width: 900px;
+    }
+
+    nav ul {
+        gap: 15px;
+    }
+
+    nav ul li a {
+        font-size: 12px;
+    }
+
+    .btn_tour a {
+        font-size: 12px;
+    }
+
+    .area_bem_estar {
+        padding: 0px 20px;
+    }
+
+    .container_formulario {
+        margin: 60px 0px 0px 0px;
+    }
+
+    .area_formulario {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        padding: 0px 20px;
+    }
+
+    .area_text_formulario {
+        height: auto;
+    }
+
+    /*Footer*/
+    footer {
+        padding: 60px 0px 40px 0px
+    }
+
+    .area_footer {
+        align-items: baseline;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        max-width: max-content;
+        gap: 30px;
+
+    }
+
+
+}
+
 
 @media(max-width: 768px) {
     .menu_mobile_open {
@@ -699,6 +764,10 @@ footer {
         flex-direction: column;
         gap: 8px;
 
+    }
+
+    nav ul {
+        display: none;
     }
 
     @keyframes move {
@@ -772,4 +841,152 @@ footer {
     .menu_mobile nav ul li a {
         font-size: 18px;
     }
+
+    .container_doador {
+        height: 320px;
+    }
+
+    .title_doador h2 {
+        font-size: 30px;
+    }
+
+    .sub_title_doador p {
+        font-size: 22px;
+    }
+
+    .btn_doador h2 {
+        font-size: 16px;
+    }
+
+    .title_contato h2 {
+        font-size: 30px;
+    }
+
+    .title_formulario h2 {
+        font-size: 22px;
+    }
+
+    form label {
+        font-size: 14px;
+    }
+
+    .area_envio label {
+        font-size: 20px;
+    }
+
+    .enviar {
+        font-size: 20px;
+    }
+    #descricao {
+        font-size: 14px;
+    }
+    input::placeholder {
+        font-size: 14px;
+    }
+    
+
+    .title_parceiros h2 {
+        font-size: 26px;
+    }
+
+}
+
+@media(max-width: 480px) {
+
+    .container_bg_servicos {
+        height: 250px;
+    }
+
+    .tile_bg_servicos h2 {
+        font-size: 30px;
+    }
+ 
+    /*Container bem-estar*/
+    .container_bem_estar {
+        padding: 60px 0px 60px 0px;
+    }
+
+    .title_bem_estar h2 {
+        font-size: 26px;
+    }
+    .sub_title_bem_estar p {
+        font-size: 14px;
+    }
+
+    .title_servicos_total h2 {
+        font-size: 26px;
+    }
+
+    /*Card*/
+    .servico_card {
+        padding: 20px 15px 20px 15px;
+    }
+    .title_card h2 {
+        font-size: 14px;
+    }
+
+    /*Container doador*/
+    .area_doador {
+        gap: 20px;
+        padding: 0px 20px;
+    }
+    .title_doador h2 {
+        font-size: 20px;
+    }
+
+    .sub_title_doador p {
+        font-size: 18px;
+    } 
+
+    /*Formulario*/
+    .title_contato h2 {
+        font-size: 26px;
+    }
+    .title_formulario h2 {
+        font-size: 18px;
+    }
+    form label {
+        font-size: 12px;
+    }
+    .enviar {
+        font-size: 16px;
+    }
+    .area_envio label {
+        font-size: 16px;
+    }
+    #descricao {
+        font-size: 12px;
+    }
+    input::placeholder {
+        font-size: 12px;
+    }
+
+    
+
+    /*Footer*/
+    .footer_social_text p {
+        font-size: 18px;
+    }
+
+    iframe {
+        width: 375px;
+    }
+
+    .telefone h2 {
+        font-size: 20px;
+    }
+
+    .endereco h2 {
+        font-size: 20px;
+    }
+
+    .copy {
+        padding: 30px 0px 30px 0px;
+    }
+
+    .area_copy p {
+        font-size: 10px;
+        padding: 0px 20px;
+    }
+
 }
