@@ -128,7 +128,9 @@ nav ul li a {
     margin: 0px;
 }
 
-
+.btn_tour:hover {
+    background: #1F2244;
+}
 
 .container_bg_servicos {
     background-image: url(../img_servicos/bg_servicos.jpg);
@@ -338,6 +340,7 @@ nav ul li a {
     border-radius: 16px;
     padding: 10px 14px;
     max-width: max-content;
+    transition: all ease-in 100ms;
 }
 
 .btn_doador h2 {
@@ -348,6 +351,15 @@ nav ul li a {
     color: var(--font-color-principal);
     text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
     margin: 0px;
+}
+
+.btn_doador:hover {
+    background: #7E5F00;
+    box-shadow: 0px 4px 43px rgba(255, 255, 255, 0.2);
+}
+
+.btn_doador:hover>h2 {
+    color: #2A2E68;
 }
 
 /*Parceiros*/
@@ -547,6 +559,13 @@ input::placeholder {
     border-radius: 16px;
     padding: 0px;
     width: 110px;
+    transition: all ease-in 100ms;
+}
+
+.enviar:hover {
+    background: #7E5F00;
+    box-shadow: 0px 4px 43px rgba(255, 255, 255, 0.2);
+    color: #2A2E68;
 }
 
 .area_envio {
@@ -566,6 +585,12 @@ input::placeholder {
     color: #818181;
     padding: 10px 15px 10px 15px;
     cursor: pointer;
+    transition: all ease-in 100ms;
+}
+
+.area_envio label:hover {
+    background-color: #888681;
+    color: #E4E3E0;
 }
 
 input[type="file"] {
