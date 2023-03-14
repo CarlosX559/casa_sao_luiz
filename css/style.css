@@ -134,8 +134,26 @@ nav ul li a {
 }
 
 /*Section slide*/
-.area_slide {
-    background-image: url(../img/slide_1.jpg);
+.area_slide_1 {
+    background-image: url(../img/acolhendo_slide.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 838px;
+    width: 100%;
+}
+
+.area_slide_2 {
+    background-image: url(../img/servicos_slide.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 838px;
+    width: 100%;
+}
+
+.area_slide_3 {
+    background-image: url(../img/doacao_slide.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -649,7 +667,7 @@ nav ul li a {
     margin: 0px;
 }
 
-.img_slide_1 img {
+.img_slide img {
     max-width: max-content;
     width: 100%;
     padding: 0px 10px;
@@ -696,7 +714,7 @@ nav ul li a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 50px;
+    gap: 40px;
 }
 
 .title_tour h2 {
@@ -752,18 +770,31 @@ nav ul li a {
 
 
 .area_galery {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    grid-template-columns: repeat(3, 0fr);
     width: 100%;
     gap: 20px;
 }
 
-.area_galery img {
-    border-radius: 4px;
-
+.galery {
+    max-width: 410px;
+    max-height: 260px;
+    overflow: hidden;
 }
 
+.area_galery img {
+    border-radius: 4px;
+    max-width: max-content;
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: all ease 200ms;
+}
+
+.area_galery img:hover {
+    transform: scale(1.06);
+}
 
 .modal_galery {
     display: none;
@@ -773,7 +804,27 @@ nav ul li a {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 99;
+}
 
+@keyframes modal {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes modal_out {
+    
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+   
 }
 
 .area_modal_galery {
@@ -782,6 +833,32 @@ nav ul li a {
     align-items: center;
     height: 100%;
     width: 100%;
+    transition: all ease 400ms;
+    padding: 0px 20px;
+}
+
+.area_modal_galery img {
+    background-color: #F3F3F3;
+    box-shadow: 0px 4px 43px rgb(255 255 255 / 36%);
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.modal_img {
+    max-width: 1030px;
+    width: 100%;
+}
+
+.area_close {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.area_close img {
+    cursor: pointer;
+    background-color: transparent;
+    box-shadow: 0px 0px 0px rgb(255 255 255 / 0%);
 }
 
 /*Comentarios*/
@@ -1425,11 +1502,6 @@ footer {
         padding: 60px 0px 60px 0px;
     }
 
-    .area_galery {
-        grid-template-columns: repeat(2, 0fr);
-    }
-
-
     /*Blog*/
 
     .container_blog {
@@ -1537,8 +1609,9 @@ footer {
 
     /*Geleria*/
     .area_galery {
-        grid-template-columns: repeat(1, 0fr);
         padding: 0px 20px;
+        justify-content: center;
+        align-items: center;
     }
 
     nav ul {
@@ -1746,6 +1819,10 @@ footer {
         font-size: 16px;
     }
 
+
+    .area_close {
+        top: 260px;
+    }
     .area_galery img {
         max-width: 340px;
     }

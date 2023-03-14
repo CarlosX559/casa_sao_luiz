@@ -253,7 +253,7 @@ nav ul li a {
     align-content: center;
     flex-wrap: wrap;
     width: 100%;
-    max-width: 980px;
+    max-width: 1000px;
     gap: 35px;
 }
 
