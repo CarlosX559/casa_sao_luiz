@@ -560,6 +560,7 @@ input::placeholder {
     padding: 0px;
     width: 110px;
     transition: all ease-in 100ms;
+    cursor: pointer;
 }
 
 .enviar:hover {
