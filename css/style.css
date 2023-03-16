@@ -1715,7 +1715,17 @@ footer {
     .btn_slide h2 {
         font-size: 16px;
     }
-
+    .area_slide_1 {
+        height: 510px;
+    }
+    
+    .area_slide_2 {
+        height: 510px;
+    }
+    
+    .area_slide_3 {
+        height: 510px;
+    }
     .title_slide h2 {
         font-size: 22px;
     }
