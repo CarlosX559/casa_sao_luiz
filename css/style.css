@@ -1625,6 +1625,9 @@ footer {
         gap: 8px;
 
     }
+    .menu_mobile nav ul li a:hover {
+        color: #fff;
+    }
 
     @keyframes move {
         0% {

@@ -799,6 +799,10 @@ footer {
 
     }
 
+    .menu_mobile nav ul li a:hover {
+        color: #fff;
+    }
+
     nav ul {
         display: none;
     }
