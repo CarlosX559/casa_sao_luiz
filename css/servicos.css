@@ -753,6 +753,7 @@ footer {
 
     .area_bem_estar {
         padding: 0px 20px;
+      
     }
 
     .container_formulario {
@@ -938,6 +939,10 @@ footer {
         padding: 60px 0px 60px 0px;
     }
 
+    .area_bem_estar {
+        align-items: baseline;
+    }
+    
     .title_bem_estar h2 {
         font-size: 26px;
     }

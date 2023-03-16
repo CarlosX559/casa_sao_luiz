@@ -1261,6 +1261,14 @@ footer {
 
 @media(max-width: 480px) {
 
+    .container_bg_servicos {
+        height: 250px;
+    }
+
+    .tile_bg_servicos h2 {
+        font-size: 30px;
+    }
+
     /*Natureza*/
     .title_natureza h2 {
         font-size: 26px;
