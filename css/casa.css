@@ -352,7 +352,7 @@ nav ul li a {
     display: flex;
     justify-content: center;
     width: 100%;
-    padding: 0px 0px 320px 0px;
+    padding: 0px 0px 0px 0px;
     height: 100vh;
     position: relative;
 }
@@ -365,7 +365,7 @@ nav ul li a {
 
 .container_historia_2 svg {
     position: absolute;
-    bottom: -58px;
+    bottom: -220px;
     z-index: -1;
 }
 
@@ -407,7 +407,7 @@ nav ul li a {
 
 .area_historia {
     display: flex;
-    height: 100vh;
+   
 }
 
 .historia {
@@ -516,7 +516,7 @@ nav ul li a {
     background-size: cover;
     width: 100%;
     height: 490px;
-    margin-top: 40px;
+    margin-top: 220px;
 }
 
 .area_doador {
@@ -993,13 +993,19 @@ footer {
 
 @media(max-width: 1440px) {
 
-
+    .area_historia {
+        height: 100vh;
+    }
     .container_historia svg {
-        bottom: -390px;
+        bottom: -442px;
     }
 
     .container_historia_2 svg {
-        bottom: -58px;
+        bottom: -380px;
+    }
+
+    .container_doador {
+        margin-top: 380px;
     }
 
 }
@@ -1091,6 +1097,9 @@ footer {
         margin-bottom: 0px;
     }
 
+    .container_doador {
+        margin-top: 40px;
+    }
 
     /*Footer*/
     footer {
