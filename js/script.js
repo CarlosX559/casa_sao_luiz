@@ -37,7 +37,6 @@ function modal() {
     document.querySelector('.modal_galery').style.animation = '';
     galery.forEach((element) => {
 
-
         setTimeout(() => {
             element.addEventListener('click', () => {
 
