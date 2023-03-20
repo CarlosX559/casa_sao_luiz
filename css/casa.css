@@ -122,6 +122,29 @@ nav ul li a {
     letter-spacing: var(--letter-spacing);
 }
 
+.btn_tour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #292E6B;
+    border-radius: 16px;
+    padding: 10px 15px;
+    max-width: max-content;
+    transition: all ease-in 100ms;
+}
+
+.btn_tour a {
+    font-size: 22px;
+    color: var(--font-color-principal);
+    font-weight: var(--font-weight-700);
+    letter-spacing: var(--letter-spacing);
+    margin: 0px;
+}
+
+.btn_tour:hover > h2 {
+    color: var(--font-color-principal);
+}
+
 .container_bg_servicos {
     background-image: url(../img_casa/bg_acasa.png);
     background-position: center;
@@ -600,7 +623,6 @@ nav ul li a {
     align-items: center;
     gap: 15px;
 }
-
 
 .container_formulario {
     display: flex;

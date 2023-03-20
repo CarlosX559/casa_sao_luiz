@@ -86,6 +86,29 @@ nav ul li .active_menu {
     color: #FABF13;
 }
 
+.btn_tour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #292E6B;
+    border-radius: 16px;
+    padding: 10px 15px;
+    max-width: max-content;
+    transition: all ease-in 100ms;
+}
+
+.btn_tour a {
+    font-size: 22px;
+    color: var(--font-color-principal);
+    font-weight: var(--font-weight-700);
+    letter-spacing: var(--letter-spacing);
+    margin: 0px;
+}
+
+.btn_tour:hover > h2 {
+    color: var(--font-color-principal);
+}
+
 nav ul li {
     text-align: center;
     list-style: none;
