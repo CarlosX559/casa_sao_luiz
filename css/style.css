@@ -129,8 +129,8 @@ nav ul li a {
     margin: 0px;
 }
 
-.btn_tour:hover {
-    background: #1F2244;
+.btn_tour:hover > h2 {
+    color: var(--font-color-principal);
 }
 
 /*Section slide*/
@@ -225,11 +225,6 @@ nav ul li a {
     color: var(--font-color-principal);
     text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
     margin: 0px;
-}
-
-.btn_slide:hover {
-    background: #7E5F00;
-    box-shadow: 0px 4px 43px rgba(255, 255, 255, 0.2);
 }
 
 .btn_slide:hover>h2 {
@@ -357,9 +352,8 @@ nav ul li a {
     margin: 0px;
 }
 
-.btn_casa:hover {
-    background: #1F2244;
-
+.btn_casa:hover>h2 {
+    color: #FABF13;
 }
 
 .img_casa img {
@@ -413,10 +407,10 @@ nav ul li a {
     margin: 0px;
 }
 
-.btn_servicos:hover {
-    background: #1F2244;
-
+.btn_servicos:hover>h2 {
+    color: #FABF13;
 }
+
 
 .img_servicos_1 {
     background-image: url(../img/cuidados.jpg);
@@ -747,9 +741,10 @@ nav ul li a {
     margin: 0px;
 }
 
-.btn_tour:hover {
-    background: #1F2244;
+.btn_tour:hover>h2 {
+    color: #FABF13;
 }
+
 
 /*Galeria*/
 
@@ -1011,8 +1006,8 @@ nav ul li a {
     margin: 0px;
 }
 
-.btn_blog:hover {
-    background: #1F2244;
+.btn_blog:hover>h2 {
+    color: #FABF13;
 }
 
 .area_blog_post {
@@ -1053,8 +1048,8 @@ nav ul li a {
     margin: 0px;
 }
 
-.btn_blog_post:hover {
-    background: #1F2244;
+.btn_blog_post:hover>h2 {
+    color: #FABF13;
 }
 
 .img_blog_1 {

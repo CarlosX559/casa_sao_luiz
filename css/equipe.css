@@ -122,28 +122,6 @@ nav ul li a {
     letter-spacing: var(--letter-spacing);
 }
 
-.btn_tour {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #292E6B;
-    border-radius: 16px;
-    padding: 10px 15px;
-    max-width: max-content;
-}
-
-.btn_tour a {
-    font-size: 22px;
-    color: var(--font-color-principal);
-    font-weight: var(--font-weight-700);
-    letter-spacing: var(--letter-spacing);
-    margin: 0px;
-}
-
-.btn_tour:hover {
-    background: #1F2244;
-}
-
 .container_bg_servicos {
     background-image: url(../img_equipe/bg_equipe.png);
     background-position: center;
@@ -623,17 +601,6 @@ button.owl-next {
     width: 100%;
 }
 
-.btn_equipe {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #292E6B;
-    border-radius: 16px;
-    padding: 10px 12px;
-    max-width: max-content;
-    transition: all ease-in 100ms;
-}
-
 .img_equipe_1 {
     background-image: url(../img_equipe/saude.png);
     background-position: center;
@@ -941,8 +908,6 @@ input::placeholder {
 }
 
 .enviar:hover {
-    background: #7E5F00;
-    box-shadow: 0px 4px 43px rgba(255, 255, 255, 0.2);
     color: #2A2E68;
 }
 
@@ -1009,35 +974,6 @@ footer {
     width: 100%;
     flex-wrap: wrap;
 }
-
-
-.btn_tour_casa {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #292E6B;
-    border-radius: 16px;
-    padding: 10px 15px;
-    max-width: max-content;
-    transition: all ease-in 100ms;
-    margin-top: 40px;
-}
-
-.btn_tour_casa h2 {
-    margin: 0px;
-}
-
-.btn_tour_casa a {
-    font-size: 22px;
-    color: var(--font-color-principal);
-    font-weight: var(--font-weight-700);
-    letter-spacing: var(--letter-spacing);
-}
-
-.btn_tour_casa:hover {
-    background: #1F2244;
-}
-
 
 .text_galery {
     max-width: 930px;
