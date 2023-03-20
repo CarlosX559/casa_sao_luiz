@@ -35,7 +35,6 @@ function modais() {
 
     let equipe = document.querySelectorAll('.card');
 
-
     equipe.forEach((element) => {
 
         element.addEventListener('click', () => {
@@ -91,10 +90,6 @@ function modais() {
 
     });
 
-
-
-
-
     let close = document.querySelectorAll('.close_modal img');
 
     close.forEach((element) => {
@@ -115,8 +110,6 @@ function modais() {
     });
 
 
-
-
     let close_modal_profissionais = document.querySelector('.close_modal_int');
 
     close_modal_profissionais.addEventListener('click', () => {
@@ -126,9 +119,6 @@ function modais() {
             document.querySelector('.modal_profissionais').style.display = 'none';
         }, 200);
     });
-
-
-
 
 }
 
