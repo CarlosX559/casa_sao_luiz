@@ -556,17 +556,32 @@ nav ul li a {
     box-shadow: 4px 14px 31px rgba(0, 0, 0, 0.1);
     border-radius: 6px;
     transition: all ease 200ms;
+    position: relative;
 }
 
-.atendimento_card:hover {
-    background: linear-gradient(275.49deg, rgba(255, 0, 0, 0.076) 21.52%, rgba(255, 255, 255, 0.168) 103.94%), #FABF13;
-    transform: translateY(-20px);
+.border_right {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 9px;
+    height: 100%;
+    background: #FABF13;
+    border-radius: 0px 6px 6px 0px;
+    transition: all ease 600ms;
+    z-index: 0;
+}
+
+.atendimento_card:hover>.border_right {
+    width: 100%;
+    border-radius: 6px 6px 6px 6px;
 }
 
 .area_texts_residencia {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    position: relative;
+    z-index: 1;
 }
 
 .title_residencia h2 {
