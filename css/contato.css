@@ -856,13 +856,16 @@ footer {
     }
 
     .area_footer {
-        align-items: baseline;
+        align-items: center;
         flex-direction: column;
         justify-content: center;
         width: 100%;
         max-width: max-content;
         gap: 30px;
 
+    }
+    .endereco_col_2 {
+        text-align: center;
     }
 }
 
