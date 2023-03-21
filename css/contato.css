@@ -1047,7 +1047,7 @@ footer {
 
 
 @media(max-width: 480px) {
-
+  
     .container_bg_contato {
         height: 250px;
     }
@@ -1070,7 +1070,18 @@ footer {
     .title_telefone h2 {
         font-size: 22px;
     }
+    /*Telefone*/
+    .area_lista {
+        gap: 20px;
+    }
+    .title_telefone {
+        margin-bottom: 20px;
+    }
+
     /*Localização*/
+    .container_localizacao {
+        padding: 60px 0px 60px 0px;
+    }
     .title_localizacao {
         margin-bottom: 40px;
     }
