@@ -321,6 +321,36 @@ nav ul li a {
     padding: 0px 10px;
 }
 
+.title_name h2 {
+    font-weight: var(--font-weight-700);
+    font-size: 20px;
+    line-height: 93.69%;
+    letter-spacing: var(--letter-spacing);
+    color: var(--font-color-info);
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+}
+
+.title_profissao h2 {
+    font-weight: var(--font-weight-600);
+    font-size: 18px;
+    line-height: 93.69%;
+    letter-spacing: var(--letter-spacing);
+    color: var(--font-color-info);
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+}
+
+.area_open svg {
+    width: 100%;
+    max-width: max-content;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    padding: 0px;
+    filter: drop-shadow(4px 2px 1px rgba(0, 0, 0, .6));
+}
+
 /*modal saude fim*/
 /*modal multi*/
 
