@@ -1402,8 +1402,11 @@ footer {
         gap: 5px;
     }
 
+    .close_modal_int h2 {
+        font-size: 14px;
+    }
     .close_modal_int img {
-        width: 15px;
+        width: 10px;
     }
 
     .close_modal img {
@@ -1414,7 +1417,7 @@ footer {
     .area_modal_profissionais img {
         max-width: 200px;
     }
-
+  
     /*Profissionais*/
     .container_profissionais {
         padding: 40px 0px 40px 0px;
