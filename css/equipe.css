@@ -564,6 +564,7 @@ nav ul li a {
 
 .area_texts_modal_profissionais {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     width: 100%;
     max-width: 490px;
