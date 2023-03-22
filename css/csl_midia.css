@@ -198,9 +198,13 @@ nav ul li a {
     width: 100%;
 }
 
-.area_csl_midia img {
+.desktop_img {
     max-width: max-content;
     width: 100%;
+}
+
+.mobile_img {
+    display: none;
 }
 
 .area_texts_csl_midia {
@@ -989,12 +993,21 @@ footer {
     .area_csl_midia {
         flex-direction: column;
         padding: 40px 20px;
+        gap: 20px;
     }
 
     .area_texts_csl_midia {
         gap: 20px;
         align-items: center;
         text-align: center;
+    }
+    .desktop_img {
+        display: none;
+    }
+    .mobile_img {
+        display: flex;
+        width: 100%;
+        max-width: 600px;
     }
 
     nav ul {
@@ -1265,7 +1278,9 @@ footer {
     .tile_bg_csl h2 {
         font-size: 22px;
     }
-
+    .container_bg_csl {
+        height: 250px;
+    }
     /*Contato*/
     .container_contato {
         padding: 40px 0px 40px 0px;
