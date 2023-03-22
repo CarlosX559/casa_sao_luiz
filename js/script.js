@@ -30,6 +30,35 @@ function menu() {
 }
 menu();
 
+function filters() {
+
+    const area_select = document.querySelectorAll(".area_select");
+    const drop_down = document.querySelectorAll(".drop_down");
+
+    for (let i = 0; i < area_select.length; i++) {
+
+        area_select[i].addEventListener("click", () => {
+
+            if (area_select[i].classList.contains("close")) {
+                area_select[i].classList.toggle("close");
+                drop_down[i].classList.toggle("open");
+             
+            } else {
+                area_select[i].classList.add("close");
+                drop_down[i].classList.add("open");
+
+               
+            }
+
+
+        });
+
+    }
+
+
+}
+filters();
+
 function modal() {
 
     let galery = document.querySelectorAll('.area_galery img');
