@@ -1168,6 +1168,7 @@ footer {
     }
 
     .area_texts_modal_profissionais {
+        justify-content: start;
         padding-bottom: 50px;
     }
 
