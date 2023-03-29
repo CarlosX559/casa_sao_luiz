@@ -1499,6 +1499,9 @@ footer {
         font-size: 18px;
     }
 
+    .area_footer {
+        padding: 0px;
+    }
     iframe {
         width: 350px;
     }

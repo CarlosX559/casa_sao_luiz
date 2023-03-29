@@ -1275,10 +1275,6 @@ footer {
 
 @media(max-width: 480px) {
 
-    .container_bg_contato {
-        height: 250px;
-    }
-
     .tile_bg_csl h2 {
         font-size: 22px;
     }
@@ -1428,8 +1424,11 @@ footer {
         font-size: 18px;
     }
 
+    .area_footer {
+        padding: 0px;
+    }
     iframe {
-        width: 375px;
+        width: 350px;
     }
 
     .telefone h2 {

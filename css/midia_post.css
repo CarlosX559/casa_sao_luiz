@@ -1181,8 +1181,11 @@ footer {
         font-size: 18px;
     }
 
+    .area_footer {
+        padding: 0px;
+    }
     iframe {
-        width: 375px;
+        width: 350px;
     }
 
     .telefone h2 {
