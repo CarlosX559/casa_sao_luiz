@@ -402,6 +402,16 @@ nav ul li a {
     text-align: center;
 }
 
+.saiba_mais p {
+    font-weight: var(--font-weight-500);
+    font-size: 14px;
+    line-height: 93.69%;
+    letter-spacing: var(--letter-spacing);
+    color: var(--font-color-info);
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+}
+
 
 /*modal saude fim*/
 /*modal multi*/
