@@ -1308,6 +1308,7 @@ input::placeholder {
 }
 
 .area_envio label {
+    display: none;
     background: #E4E3E0;
     border-radius: 17px;
     font-weight: var(--font-weight-600);

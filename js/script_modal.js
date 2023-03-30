@@ -30,6 +30,17 @@ function menu() {
 }
 menu();
 
+function form() {
+
+    let radio = document.querySelectorAll('input[type="radio"]');
+    let label = document.querySelector('.area_envio label');
+    radio.forEach( (element) => {
+        element.addEventListener( 'click', () => {
+            element.value == 'Trabalhe Conosco' ? label.style.display = 'flex': label.style.display = 'none';
+        });
+    });
+}
+form();
 
 function modais() {
 

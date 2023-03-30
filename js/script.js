@@ -30,6 +30,18 @@ function menu() {
 }
 menu();
 
+function form() {
+
+    let radio = document.querySelectorAll('input[type="radio"]');
+    let label = document.querySelector('.area_envio label');
+    radio.forEach( (element) => {
+        element.addEventListener( 'click', () => {
+            element.value == 'Trabalhe Conosco' ? label.style.display = 'flex': label.style.display = 'none';
+        });
+    });
+}
+form();
+
 function filters() {
 
     const area_select = document.querySelectorAll(".area_select");
@@ -45,17 +57,11 @@ function filters() {
              
             } else {
                 area_select[i].classList.add("close");
-                drop_down[i].classList.add("open");
-
-               
+                drop_down[i].classList.add("open");  
             }
-
-
         });
 
     }
-
-
 }
 filters();
 
