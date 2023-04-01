@@ -373,7 +373,6 @@ nav ul li a {
 }
 
 .item img {
-    cursor: pointer;
     max-width: 300px;
     width: 100%;
     padding: 0px 10px;
@@ -398,18 +397,20 @@ nav ul li a {
     line-height: 93.69%;
     letter-spacing: var(--letter-spacing);
     color: var(--font-color-info);
-    margin: 10px 0px 0px 0px;
+    margin: 5px 0px 0px 0px;
     text-align: center;
 }
 
 .saiba_mais p {
-    font-weight: var(--font-weight-500);
+    font-weight: var(--font-weight-600);
     font-size: 14px;
     line-height: 93.69%;
     letter-spacing: var(--letter-spacing);
-    color: var(--font-color-info);
+    color: #FABF13;
     margin: 10px 0px 0px 0px;
     text-align: center;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 

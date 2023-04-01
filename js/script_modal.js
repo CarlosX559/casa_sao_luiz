@@ -81,14 +81,14 @@ function modais() {
 
             //Modal interno com informações de cada profissional
 
-            let modais = document.querySelectorAll('.item img');
+            let modais = document.querySelectorAll('.item .saiba_mais');
             document.querySelector('.modal_profissionais').style.animation = '';
             modais.forEach((element) => {
 
                 element.addEventListener('click', () => {
                     document.querySelector('.modal_profissionais').style.animation = 'modal ease-in 400ms';
                     document.querySelector('.modal_profissionais').style.display = 'flex';
-                    document.querySelector('.area_modal_profissionais img').src = element.src;
+                    document.querySelector('.area_modal_profissionais img').src =  element.getAttribute('src');
                     document.querySelector('.title_modal_profissionais h2').innerHTML = element.getAttribute('data_name');
                     document.querySelector('.modal_profissao h2').innerHTML = element.getAttribute('data_profissao');
                     document.querySelector('.sub_title_modal_profissionais p').innerHTML = element.getAttribute('data_info');
