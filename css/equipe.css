@@ -674,13 +674,13 @@ nav ul li a {
 
 button.owl-prev {
     position: absolute;
-    top: 50%;
+    top: 38%;
     left: -30px;
 }
 
 button.owl-next {
     position: absolute;
-    top: 50%;
+    top: 38%;
     right: -30px;
 }
 
