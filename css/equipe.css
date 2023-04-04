@@ -352,6 +352,16 @@ nav ul li a {
     margin: 0px;
 }
 
+.sub_title_modal_saude h2 {
+    font-weight: var(--font-weight-600);
+    font-size: 22px;
+    line-height: 93.69%;
+    letter-spacing: var(--letter-spacing);
+    color: var(--font-color-info);
+    margin: -20px 0px 0px 0px;
+}
+
+
 .area_saude {
     display: flex;
     justify-content: center;
@@ -460,6 +470,15 @@ nav ul li a {
     margin: 0px;
 }
 
+.sub_title_modal_multi h2 {
+    font-weight: var(--font-weight-600);
+    font-size: 22px;
+    line-height: 93.69%;
+    letter-spacing: var(--letter-spacing);
+    color: var(--font-color-info);
+    margin: -20px 0px 0px 0px;
+}
+
 .area_multi {
     display: flex;
     justify-content: center;
@@ -512,6 +531,15 @@ nav ul li a {
     letter-spacing: var(--letter-spacing);
     color: var(--font-color-info);
     margin: 0px;
+}
+
+.sub_title_modal_admin h2 {
+    font-weight: var(--font-weight-600);
+    font-size: 22px;
+    line-height: 93.69%;
+    letter-spacing: var(--letter-spacing);
+    color: var(--font-color-info);
+    margin: -20px 0px 0px 0px;
 }
 
 .area_admin {
@@ -1238,6 +1266,14 @@ footer {
         font-size: 26px;
     }
 
+    .sub_title_modal_saude h2,
+    .sub_title_modal_multi h2,
+    .sub_title_modal_admin h2,
+    .sub_title_modal_diretores h2 {
+        text-align: center;
+        font-size: 20px;
+    }
+
     .title_modal_profissionais h2 {
         font-size: 26px;
     }
@@ -1609,6 +1645,13 @@ footer {
         font-size: 10px;
         padding: 0px 20px;
     }
-
+    .sub_title_modal_saude h2,
+    .sub_title_modal_multi h2,
+    .sub_title_modal_admin h2,
+    .sub_title_modal_diretores h2 {
+        text-align: center;
+        font-size: 20px;
+        margin: -10px 0px 0px 0px;
+    }
 
 }
