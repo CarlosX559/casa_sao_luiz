@@ -423,7 +423,7 @@ nav ul li a {
 
 .dias_semana.active {
     padding: 0px 4px;
-    background: #FFD65F;
+    background-color: #FABF13;
     border-radius: 3px;
     font-weight: var(--font-weight-600);
 }
