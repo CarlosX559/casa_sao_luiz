@@ -33,10 +33,10 @@ menu();
 function form() {
 
     let radio = document.querySelectorAll('input[type="radio"]');
-    let label = document.querySelector('.area_envio label');
+    let area = document.querySelector('.area_arquivo');
     radio.forEach( (element) => {
         element.addEventListener( 'click', () => {
-            element.value == 'Trabalhe Conosco' ? label.style.display = 'flex': label.style.display = 'none';
+            element.value == 'Trabalhe Conosco' ? area.style.display = 'flex': area.style.display = 'none';
         });
     });
 }

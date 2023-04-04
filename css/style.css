@@ -176,6 +176,7 @@ nav ul li a {
     padding: 10px 15px;
     max-width: max-content;
     transition: all ease-in 100ms;
+    border: 3px solid #FABF13;
 }
 
 .btn_tour a {

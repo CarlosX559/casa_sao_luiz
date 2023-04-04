@@ -188,6 +188,7 @@ nav ul li a {
     padding: 10px 15px;
     max-width: max-content;
     transition: all ease-in 100ms;
+    border: 3px solid #FABF13;
 }
 
 .btn_tour a {
@@ -677,14 +678,13 @@ nav ul li a {
     margin: 0px;
 }
 
-
 .formulario {
     display: flex;
     flex-direction: column;
     background: #333B94;
     box-shadow: 29px 31px 45px rgba(0, 0, 0, 0.25);
     border-radius: 27px;
-    padding: 25px 50px 25px 50px;
+    padding: 25px 30px 25px 30px;
 }
 
 .title_formulario h2 {
@@ -785,19 +785,23 @@ input::placeholder {
     color: #2A2E68;
 }
 
+.area_arquivo {
+    display: none;
+    justify-content: flex-end;
+}
+
 .area_envio {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 30px;
 }
 
-.area_envio label {
-    display: none;
+.area_arquivo label {
+    display: flex;
     background: #E4E3E0;
     border-radius: 17px;
     font-weight: var(--font-weight-600);
-    font-size: 22px;
-    line-height: 26px;
+    font-size: 16px;
     text-align: center;
     letter-spacing: var(--letter-spacing);
     color: #818181;
@@ -806,7 +810,7 @@ input::placeholder {
     transition: all ease-in 100ms;
 }
 
-.area_envio label:hover {
+.area_arquivo label:hover {
     background-color: #888681;
     color: #E4E3E0;
 }
@@ -814,8 +818,6 @@ input::placeholder {
 input[type="file"] {
     display: none;
 }
-
-
 
 /*Footer*/
 
@@ -1420,10 +1422,6 @@ footer {
         font-size: 18px;
     }
 
-    form label {
-        font-size: 12px;
-    }
-
     .enviar {
         font-size: 16px;
     }
@@ -1433,11 +1431,11 @@ footer {
     }
 
     #descricao {
-        font-size: 12px;
+        font-size: 16px;
     }
 
     input::placeholder {
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .area_close {

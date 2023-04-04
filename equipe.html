@@ -414,6 +414,9 @@
             <div class="title_modal_diretores">
                 <h2>Conheça os diretores</h2>
             </div>
+            <div class="sub_title_modal_diretores">
+                <h2>Texto de apresentação</h2>
+            </div>
             <div class="area_diretores">
                 <div class="slide-2 area_imgs owl-carousel owl-theme">
 
@@ -533,16 +536,16 @@
                         <div class="area_inputs">
                             <input type="text" name="nome" placeholder="Seu nome *" required>
                             <input type="text" name="email" placeholder="Seu E-mail *" required>
-                            <textarea name="mensagem" id="descricao" placeholder="Escreva uma Mensagem *"
-                                required></textarea>
+                            <div class="area_arquivo">
+                                <label for="arquivo">Enviar arquivo</label>
+                                <input type="file" name="arquivo" id="arquivo">
+                            </div>
+                        
+                            <textarea name="mensagem" id="descricao" placeholder="Escreva uma Mensagem *" required></textarea>
                         </div>
-
+                        
                         <div class="area_envio">
-                            <label for="arquivo">Enviar arquivo</label>
-                            <input type="file" name="arquivo" id="arquivo">
-
                             <input type="submit" class="enviar" value="Enviar">
-
                         </div>
 
 
