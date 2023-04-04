@@ -405,21 +405,27 @@ nav ul li a {
 
 .area_dias {
     display: flex;
-    gap: 6px;
+    gap: 15px;
 }
 
 .dias_semana {
+    display: flex;
+    justify-content: center;
     font-weight: var(--font-weight-500);
     font-size: 12px;
     line-height: 130%;
     letter-spacing: var(--letter-spacing);
     color: var(--font-color-info);
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
 }
 
 .dias_semana.active {
     padding: 0px 4px;
     background: #FFD65F;
     border-radius: 3px;
+    font-weight: var(--font-weight-600);
 }
 
 .drop_down {
@@ -473,12 +479,42 @@ nav ul li a {
     flex-direction: column;
     align-items: center;
 }
-
 .dias {
-    padding: 6px;
-    background: #FFD65F;
-    border-radius: 3px;
-    max-width: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    max-width: 200px;
+    gap: 15px;
+}
+
+.dias p {
+    display: flex;
+    justify-content: center;
+    font-weight: var(--font-weight-500);
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: var(--letter-spacing);
+    color: var(--font-color-info);
+    margin: 0px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+   
+}
+
+.dias h2 {
+    display: flex;
+    justify-content: center;
+    font-weight: var(--font-weight-600);
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: var(--letter-spacing);
+    color: var(--font-color-info);
+    margin: 0px;
+    background-color: #FABF13;
+    cursor: pointer;
+   
 }
 
 .ano h2 {
@@ -488,15 +524,7 @@ nav ul li a {
     letter-spacing: var(--letter-spacing);
     color: var(--font-color-info);
     margin: 0px;
-}
-
-.dias h2 {
-    font-weight: var(--font-weight-500);
-    font-size: 16px;
-    line-height: 130%;
-    letter-spacing: var(--letter-spacing);
-    color: var(--font-color-info);
-    margin: 0px;
+    
 }
 
 .item.select {
@@ -515,6 +543,14 @@ nav ul li a {
     color: var(--font-color-info);
 }
 
+.area_mes {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.area_mes svg {
+    cursor: pointer;
+}
 .numbers {
     display: flex;
     gap: 30px;
@@ -522,6 +558,14 @@ nav ul li a {
     margin-top: 60px;
 }
 
+.area_ano {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.area_ano svg {
+    cursor: pointer;
+}
 .numbers .select {
     display: flex;
     justify-content: center;
