@@ -1546,7 +1546,7 @@ footer {
 .copy {
     width: 100%;
     background: linear-gradient(95.04deg, rgba(254, 254, 254, 0.2) 12.63%, rgba(106, 70, 0, 0.144) 75.51%), #FABF13;
-    padding: 30px 0px 40px 0px;
+    padding: 30px 0px 30px 0px;
 }
 
 .area_copy {
@@ -1563,6 +1563,7 @@ footer {
     letter-spacing: var(--letter-spacing);
     color: #292E6B;
     margin: 0px;
+    padding: 0px 20px;
 }
 
 
