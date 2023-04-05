@@ -281,6 +281,25 @@ nav ul li a {
     justify-content: center;
     align-items: center;
     padding: 0px 0px 60px 0px;
+    position: relative;
+}
+
+.bg_logo_1 img {
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    max-width: max-content;
+    z-index: -1;
+    left: 0px;
+}
+
+.bg_logo_2 img {
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    max-width: max-content;
+    z-index: -1;
+    right: 0px;
 }
 
 .container_servicos_total_int {
@@ -807,9 +826,25 @@ footer {
     margin: 0px;
 }
 
+@media(min-width: 1920px) {
+    .bg_logo_1 img {
+        left: 200px;
+    }
 
+    .bg_logo_2 img {
+        right: 200px;
+    }
+
+
+}
 @media(max-width: 1024px) {
+    .bg_logo_1 img {
+        max-width: 250px;
+    }
 
+    .bg_logo_2 img {
+        max-width: 250px;
+    }
     .area_container_header {
         gap: 0px;
         justify-content: center;
@@ -1012,6 +1047,14 @@ footer {
 }
 
 @media(max-width: 480px) {
+
+    .bg_logo_1 img {
+       top: 30%;
+    }
+
+    .bg_logo_2 img {
+        top: 50%;
+    }
 
     .container_bg_servicos {
         height: 250px;
