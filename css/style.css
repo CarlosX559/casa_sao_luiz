@@ -167,19 +167,19 @@ nav ul li a {
     letter-spacing: var(--letter-spacing);
 }
 
-.btn_tour {
+.btn_tour_header {
     display: flex;
     justify-content: center;
     align-items: center;
     background: #292E6B;
     border-radius: 16px;
-    padding: 10px 15px;
+    padding: 7px 15px;
     max-width: max-content;
     transition: all ease-in 100ms;
     border: 3px solid #FABF13;
 }
 
-.btn_tour a {
+.btn_tour_header a {
     font-size: 22px;
     color: var(--font-color-principal);
     font-weight: var(--font-weight-700);
@@ -187,7 +187,7 @@ nav ul li a {
     margin: 0px;
 }
 
-.btn_tour:hover > h2 {
+.btn_tour_header:hover > h2 {
     color: var(--font-color-principal);
 }
 
