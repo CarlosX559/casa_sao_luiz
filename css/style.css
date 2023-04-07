@@ -477,8 +477,7 @@ nav ul li a {
     max-width: 300px;
     width: 100%;
     height: 445px;
-    cursor: pointer;
-    transition: all ease 200ms;
+    transition: all ease 400ms;
     border-radius: 10px;
 }
 
@@ -489,8 +488,7 @@ nav ul li a {
     max-width: 300px;
     width: 100%;
     height: 445px;
-    cursor: pointer;
-    transition: all ease 200ms;
+    transition: all ease 400ms;
     border-radius: 10px;
 }
 
@@ -501,8 +499,7 @@ nav ul li a {
     max-width: 300px;
     width: 100%;
     height: 445px;
-    cursor: pointer;
-    transition: all ease 200ms;
+    transition: all ease 400ms;
     border-radius: 10px;
 }
 
@@ -513,33 +510,31 @@ nav ul li a {
     max-width: 300px;
     width: 100%;
     height: 445px;
-    cursor: pointer;
-    transition: all ease 200ms;
+    transition: all ease 400ms;
     border-radius: 10px;
-}
-
-.img_servicos_1:hover,
-.img_servicos_2:hover,
-.img_servicos_3:hover,
-.img_servicos_4:hover {
-    transform: translateY(-20px);
 }
 
 .img_servicos_1:hover>.area_text_servicos,
 .img_servicos_2:hover>.area_text_servicos,
 .img_servicos_3:hover>.area_text_servicos,
 .img_servicos_4:hover>.area_text_servicos {
-    display: flex;
+    max-height: 100%;
+    opacity: 1;
+    transform: scaleY(1);
 }
 
 .area_text_servicos {
-    display: none;
+    display: flex;
+    max-height: 0px;
+    opacity: 0;
     justify-content: flex-end;
     flex-direction: column;
     height: 100%;
     gap: 15px;
     padding: 0px 30px 50px 30px;
     background: linear-gradient(0deg, #F3F3F3 26.14%, rgba(217, 217, 217, 0) 106.8%);
+    transform: scaleY(0.2);
+    transition: all ease 400ms;
 }
 
 .title_servicos h2 {
