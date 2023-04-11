@@ -236,6 +236,27 @@ nav ul li a {
     justify-content: center;
     width: 100%;
     padding: 80px 0px 60px 0px;
+    position: relative;
+}
+
+.bg_logo_1 img {
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    max-width: max-content;
+    z-index: -1;
+    left: 20px;
+    max-width: 200px;
+}
+
+.bg_logo_2 img {
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    max-width: max-content;
+    z-index: -1;
+    right: 20px;
+    max-width: 200px;
 }
 
 .container_profissionais_int {
@@ -1236,6 +1257,19 @@ footer {
 }
 
 
+
+@media(min-width: 1920px) {
+    .bg_logo_1 img {
+        left: 200px;
+    }
+
+    .bg_logo_2 img {
+        right: 200px;
+    }
+
+
+}
+
 @media(max-width: 1024px) {
     .owl-item {
         display: flex;
@@ -1496,6 +1530,16 @@ footer {
 }
 
 @media(max-width: 480px) {
+
+    .bg_logo_1 img {
+        top: 40px;
+        max-width: 100px;
+    }
+
+    .bg_logo_2 img {
+        top: 200px;
+        max-width: 100px;
+    }
 
     .area_saude,
     .area_multi,

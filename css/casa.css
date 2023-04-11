@@ -408,6 +408,26 @@ nav ul li a {
     padding: 100px 0px 0px 0px;
 }
 
+.bg_logo_1 img {
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    max-width: max-content;
+    z-index: -1;
+    left: 40px;
+    max-width: 200px;
+}
+
+.bg_logo_2 img {
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    max-width: max-content;
+    z-index: -1;
+    right: 40px;
+    max-width: 200px;
+}
+
 .container_historia_int {
     display: flex;
     justify-content: center;
@@ -1567,6 +1587,17 @@ footer {
 }
 
 
+@media(min-width: 1920px) {
+    .bg_logo_1 img {
+        left: 200px;
+    }
+
+    .bg_logo_2 img {
+        right: 200px;
+    }
+
+
+}
 @media(max-width: 1440px) {
 
     .container_doador {
@@ -2015,6 +2046,16 @@ footer {
 }
 
 @media(max-width: 480px) {
+
+    .bg_logo_1 img {
+        top: 40px;
+        max-width: 100px;
+    }
+
+    .bg_logo_2 img {
+        top: 200px;
+        max-width: 100px;
+    }
 
     .container_bg_servicos {
         height: 250px;

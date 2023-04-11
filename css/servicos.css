@@ -291,6 +291,7 @@ nav ul li a {
     max-width: max-content;
     z-index: -1;
     left: 0px;
+    max-width: 200px;
 }
 
 .bg_logo_2 img {
@@ -300,6 +301,7 @@ nav ul li a {
     max-width: max-content;
     z-index: -1;
     right: 0px;
+    max-width: 200px;
 }
 
 .container_servicos_total_int {
@@ -839,11 +841,11 @@ footer {
 }
 @media(max-width: 1024px) {
     .bg_logo_1 img {
-        max-width: 250px;
+        max-width: 200px;
     }
 
     .bg_logo_2 img {
-        max-width: 250px;
+        max-width: 200px;
     }
     .area_container_header {
         gap: 0px;
