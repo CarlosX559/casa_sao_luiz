@@ -238,9 +238,9 @@ nav ul li a {
     position: relative;
 }
 
-.bg_logo_1 img {
+.bg_logo_1_n img {
     position: absolute;
-    top: 80px;
+    top: 140px;
     width: 100%;
     max-width: max-content;
     z-index: -1;
@@ -248,9 +248,9 @@ nav ul li a {
     max-width: 200px;
 }
 
-.bg_logo_2 img {
+.bg_logo_2_n img {
     position: absolute;
-    top: 80px;
+    top: 140px;
     width: 100%;
     max-width: max-content;
     z-index: -1;
@@ -1617,6 +1617,14 @@ footer {
         right: 200px;
     }
 
+    .bg_logo_1_n img {
+        left: 200px;
+    }
+
+    .bg_logo_2_n img {
+        right: 200px;
+    }
+
 
 }
 @media(max-width: 1440px) {
@@ -2074,6 +2082,16 @@ footer {
     }
 
     .bg_logo_2 img {
+        top: 200px;
+        max-width: 100px;
+    }
+
+    .bg_logo_1_n img {
+        top: 40px;
+        max-width: 100px;
+    }
+
+    .bg_logo_2_n img {
         top: 200px;
         max-width: 100px;
     }
