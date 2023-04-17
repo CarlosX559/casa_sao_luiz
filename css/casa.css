@@ -1585,6 +1585,7 @@ footer {
     max-width: max-content;
     transition: all ease-in 100ms;
     margin-top: 40px;
+    border: 3px solid #FABF13;
 }
 
 .btn_tour_casa h2 {
