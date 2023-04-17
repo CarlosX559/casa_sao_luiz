@@ -1539,3 +1539,12 @@ footer {
     }
 
 }
+
+@media(max-width: 425px) {
+    .title_doacao h2 {
+        font-size: 18px;
+    }
+    .sub_title_doacao p {
+        font-size: 12px;
+    }
+}
