@@ -1071,7 +1071,7 @@ footer {
  
     /*Container bem-estar*/
     .container_bem_estar {
-        padding: 60px 0px 60px 0px;
+        padding: 40px 0px 40px 0px;
     }
 
     .area_bem_estar {
@@ -1096,7 +1096,12 @@ footer {
     .title_card h2 {
         font-size: 14px;
     }
-
+    .container_servicos_total {
+        padding: 0px 0px 40px 0px;
+    }
+    .container_formulario {
+        margin: -35px 0px 0px 0px;
+    }
     /*Container doador*/
     .area_doador {
         gap: 20px;

@@ -2196,7 +2196,9 @@ footer {
 }
 
 @media(max-width: 480px) {
-
+    .container_natureza {
+        padding: 40px 0px 40px 0px;
+    }
     .historia_img_1 img {
         width: 100%;
         max-width: max-content;
@@ -2257,13 +2259,15 @@ footer {
 
     /*Historia*/
     .container_historia {
-        padding: 60px 0px 0px 0px;
+        padding: 40px 0px 0px 0px;
     }
 
     .title_historia_container {
         width: 100%;
     }
-
+    .historia_circulo {
+        margin-top: 40px;
+    }
     .title_historia_container h2 {
         font-size: 26px;
     }

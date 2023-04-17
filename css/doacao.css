@@ -1135,7 +1135,7 @@ footer {
     }
 
     .tile_bg_doacao h2 {
-        font-size: 26px;
+        font-size: 30px;
     }
 
     .menu_mobile_open {
@@ -1353,7 +1353,7 @@ footer {
 
     /*Valor*/
     .container_doar {
-        margin: 60px 0px 60px 0px;
+        margin: 40px 0px 0px 0px;
     }
 
     .form_valor {
@@ -1458,7 +1458,9 @@ footer {
     }
 
     /*Formulario*/
-
+    .container_formulario {
+        margin: -20px 0px 0px 0px;
+    }
     .title_contato_formulario h2 {
         font-size: 18px;
     }

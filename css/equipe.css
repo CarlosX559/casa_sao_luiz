@@ -409,7 +409,12 @@ nav ul li a {
     width: 100%;
     padding: 0px 10px;
 }
+
 .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     position: relative;
 }
 
@@ -741,13 +746,25 @@ nav ul li a {
     align-items: center;
 }
 
-button.owl-prev {
+.slide-1 button.owl-prev {
+    position: absolute;
+    top: 38%;
+    left: 20px;
+}
+
+.slide-1 button.owl-next {
+    position: absolute;
+    top: 38%;
+    right: 20px;
+}
+
+.slide-2 button.owl-prev {
     position: absolute;
     top: 38%;
     left: -30px;
 }
 
-button.owl-next {
+.slide-2 button.owl-next {
     position: absolute;
     top: 38%;
     right: -30px;
@@ -1552,7 +1569,7 @@ footer {
     }
 
     .tile_bg_servicos h2 {
-        font-size: 26px;
+        font-size: 30px;
     }
 
     .modal_saude_int,
@@ -1581,8 +1598,8 @@ footer {
     }
 
     .close_modal img {
-        right: 55px;
-        top: 50px;
+        right: 30px;
+        top: 20px;
     }
 
     .area_modal_profissionais img {
@@ -1615,7 +1632,9 @@ footer {
     .title_contato h2 {
         font-size: 26px;
     }
-
+    .container_formulario {
+        margin: 0px 0px 0px 0px;
+    }
     .title_formulario h2 {
         font-size: 18px;
     }

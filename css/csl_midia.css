@@ -1382,9 +1382,11 @@ footer {
 
 
 @media(max-width: 480px) {
-
+    .container_blog_post {
+        padding: 40px 0px 0px 0px;
+    }
     .tile_bg_csl h2 {
-        font-size: 22px;
+        font-size: 30px;
     }
     .container_bg_csl {
         height: 250px;
@@ -1473,7 +1475,9 @@ footer {
     }
 
     /*Formulario*/
-
+    .container_formulario {
+        margin: 40px 0px 0px 0px;
+    }
     .title_contato_formulario h2 {
         font-size: 18px;
     }
