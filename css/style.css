@@ -1250,7 +1250,6 @@ nav ul li a {
 }
 
 .aswer {
-    overflow: hidden;
     max-height: 0px;
     opacity: 0;
     transition: all ease-in-out 400ms;
