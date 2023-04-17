@@ -481,7 +481,7 @@ nav ul li a {
     height: 180px;
     border-radius: 400px;
     background: linear-gradient(285.4deg, #FABF13 15.32%, rgba(250, 191, 19, 0) 78.93%), #FFDA6C;
-    cursor: pointer;
+
 }
 
 .circle_historia_2 {
@@ -495,7 +495,7 @@ nav ul li a {
     height: 180px;
     border-radius: 400px;
     background: linear-gradient(243.57deg, rgba(0, 0, 0, 0.2) 10.88%, rgba(255, 255, 255, 0) 102.66%), #7074AE;
-    cursor: pointer;
+
 }
 
 .circle_historia_3 {
@@ -509,7 +509,7 @@ nav ul li a {
     height: 180px;
     border-radius: 400px;
     background: linear-gradient(154.15deg, rgba(152, 73, 0, 0.2) -122.21%, rgba(0, 0, 0, 0) 83.68%), #FABF13;
-    cursor: pointer;
+  
 }
 
 .circle_historia_4 {
@@ -523,7 +523,7 @@ nav ul li a {
     height: 180px;
     border-radius: 400px;
     background: linear-gradient(62.66deg, rgba(0, 0, 0, 0.2) 18.38%, rgba(255, 255, 255, 0.2) 72.25%), #26295E;
-    cursor: pointer;
+  
 
 }
 
@@ -538,7 +538,7 @@ nav ul li a {
     height: 180px;
     border-radius: 400px;
     background: linear-gradient(133.24deg, rgba(255, 190, 0, 0.2) 48.1%, rgba(165, 49, 0, 0) 92.68%), #E7AC03;
-    cursor: pointer;
+
 
 }
 
@@ -553,7 +553,7 @@ nav ul li a {
     height: 180px;
     border-radius: 400px;
     background: linear-gradient(15.1deg, rgba(3, 8, 66, 0.2) -16.75%, rgba(0, 0, 0, 0) 99.59%), #4E55A9;
-    cursor: pointer;
+  
 
 }
 
@@ -569,8 +569,7 @@ nav ul li a {
     height: 180px;
     border-radius: 400px;
     background: linear-gradient(17.78deg, rgba(255, 194, 16, 0.4) -134%, rgba(250, 191, 19, 0.4) 130.66%), #C59200;
-    cursor: pointer;
-
+   
 }
 
 .circle_historia_8 {
@@ -584,7 +583,7 @@ nav ul li a {
     height: 180px;
     border-radius: 400px;
     background: #292E6B;
-    cursor: pointer;
+
 
 }
 
@@ -599,7 +598,6 @@ nav ul li a {
     height: 180px;
     border-radius: 400px;
     background: linear-gradient(109.99deg, rgba(255, 255, 255, 0.2) 36.66%, rgba(255, 255, 255, 0) 54.13%), #E7AC03;
-    cursor: pointer;
 
 }
 
@@ -614,7 +612,7 @@ nav ul li a {
     height: 180px;
     border-radius: 400px;
     background: #26295E;
-    cursor: pointer;
+
 
 }
 
@@ -667,7 +665,7 @@ nav ul li a {
     }
 
 }
-
+/*
 .circle_historia_1:hover>.border_circle {
     width: 240px;
     animation: border 1s ease-in;
@@ -748,7 +746,7 @@ nav ul li a {
     animation-fill-mode: forwards;
     animation-duration: 400ms;
 }
-
+*/
 
 @keyframes text {
 
@@ -765,7 +763,7 @@ nav ul li a {
 }
 
 @media (hover) {
-
+    /*
     .circle_historia_1:hover>.historia_text,
     .circle_historia_2:hover>.historia_text_2,
     .circle_historia_3:hover>.historia_text_3,
@@ -864,9 +862,10 @@ nav ul li a {
         animation-fill-mode: forwards;
         animation-duration: 400ms;
     }
+    */
 }
 
-
+/*
 .circle_historia_1:hover>.historia_text,
 .circle_historia_2:hover>.historia_text_2,
 .circle_historia_3:hover>.historia_text_3,
@@ -882,8 +881,8 @@ nav ul li a {
     animation-delay: 1.2s;
     animation-duration: 400ms;
     animation-fill-mode: forwards;
-}
-
+}*/
+/*
 .border_circle {
     position: absolute;
     left: 300px;
@@ -983,14 +982,13 @@ nav ul li a {
     transition: all ease-in 400ms;
 
 }
-
+*/
 .historia_text {
     position: absolute;
     left: 300px;
     width: 260px;
     top: -128px;
     opacity: 0;
-    max-height: 0px;
     transition: all ease-in 400ms;
     transform-origin: bottom;
 }
@@ -1001,7 +999,6 @@ nav ul li a {
     width: 260px;
     top: 0px;
     opacity: 0;
-    max-height: 0px;
     transition: all ease-in 400ms;
     transform-origin: bottom;
 }
@@ -1012,7 +1009,6 @@ nav ul li a {
     width: 260px;
     top: 0px;
     opacity: 0;
-    max-height: 0px;
     transition: all ease-in 400ms;
     transform-origin: bottom;
 }
@@ -1023,7 +1019,6 @@ nav ul li a {
     width: 260px;
     top: 0px;
     opacity: 0;
-    max-height: 0px;
     transition: all ease-in 400ms;
     transform-origin: bottom;
 }
@@ -1034,7 +1029,6 @@ nav ul li a {
     width: 260px;
     top: 0px;
     opacity: 0;
-    max-height: 0px;
     transition: all ease-in 400ms;
     transform-origin: bottom;
 }
@@ -1045,7 +1039,6 @@ nav ul li a {
     width: 260px;
     top: 0px;
     opacity: 0;
-    max-height: 0px;
     transition: all ease-in 400ms;
     transform-origin: bottom;
 }
@@ -1056,7 +1049,6 @@ nav ul li a {
     width: 260px;
     top: 0px;
     opacity: 0;
-    max-height: 0px;
     transition: all ease-in 400ms;
     transform-origin: bottom;
 }
@@ -1067,7 +1059,6 @@ nav ul li a {
     width: 260px;
     top: 0px;
     opacity: 0;
-    max-height: 0px;
     transition: all ease-in 400ms;
     transform-origin: bottom;
 }
@@ -1080,7 +1071,6 @@ nav ul li a {
     top: 0px;
     overflow: hidden;
     opacity: 0;
-    max-height: 0px;
     transition: all ease-in 400ms;
     transform-origin: bottom;
 }
@@ -1093,7 +1083,6 @@ nav ul li a {
     top: 0px;
     overflow: hidden;
     opacity: 0;
-    max-height: 0px;
     transition: all ease-in 400ms;
     transform-origin: bottom;
 }
@@ -1131,7 +1120,7 @@ nav ul li a {
 }
 
 @media (hover) {
-    .circle_historia_1:hover>.historia_img,
+    /*.circle_historia_1:hover>.historia_img,
     .circle_historia_2:hover>.historia_img_2,
     .circle_historia_3:hover>.historia_img {
         max-height: initial;
@@ -1140,10 +1129,10 @@ nav ul li a {
         animation-delay: 1.8s;
         animation-duration: 500ms;
         animation-fill-mode: forwards;
-    }
+    }*/
 }
 
-
+/*
 .circle_historia_1:hover>.historia_img,
 .circle_historia_2:hover>.historia_img_2,
 .circle_historia_3:hover>.historia_img_3 {
@@ -1154,7 +1143,7 @@ nav ul li a {
     animation-duration: 500ms;
     animation-fill-mode: forwards;
 }
-
+*/
 .historia_img {
     position: absolute;
     display: flex;
@@ -1164,7 +1153,6 @@ nav ul li a {
     top: 128px;
     overflow: hidden;
     opacity: 0;
-    max-height: 0px;
     transition: all ease-in 400ms;
     transform-origin: bottom;
 }
@@ -1183,7 +1171,6 @@ nav ul li a {
     top: 148px;
     overflow: hidden;
     opacity: 0;
-    max-height: 0px;
     transition: all ease-in 400ms;
     transform-origin: bottom;
 }
@@ -1202,7 +1189,6 @@ nav ul li a {
     top: 100px;
     overflow: hidden;
     opacity: 0;
-    max-height: 0px;
     transition: all ease-in 400ms;
     transform-origin: bottom;
 }
@@ -2212,6 +2198,22 @@ footer {
 }
 
 @media(max-width: 480px) {
+
+    .historia_img_1 img {
+        width: 100%;
+        max-width: max-content;
+        display: none;
+    }
+    .historia_img_2 img {
+        width: 100%;
+        max-width: max-content;
+        display: none;
+    }
+    .historia_img_3 img {
+        width: 100%;
+        max-width: max-content;
+        display: none;
+    }
 
     .bg_logo_1 img {
         top: 40px;
