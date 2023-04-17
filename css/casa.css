@@ -1069,7 +1069,6 @@ nav ul li a {
     left: 300px;
     width: 260px;
     top: 0px;
-    overflow: hidden;
     opacity: 0;
     transition: all ease-in 400ms;
     transform-origin: bottom;
@@ -1081,7 +1080,6 @@ nav ul li a {
     right: 300px;
     width: 260px;
     top: 0px;
-    overflow: hidden;
     opacity: 0;
     transition: all ease-in 400ms;
     transform-origin: bottom;
