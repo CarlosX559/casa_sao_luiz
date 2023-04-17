@@ -820,7 +820,7 @@ nav ul li a {
     display: flex;
     justify-content: center;
     width: 100%;
-    padding: 100px 0px 140px 0px;
+    padding: 60px 0px 60px 0px;
 }
 
 .container_galery_int {
@@ -1012,7 +1012,7 @@ nav ul li a {
     display: flex;
     justify-content: center;
     width: 100%;
-    padding: 150px 0px 150px 0px;
+    padding: 60px 0px 60px 0px;
 }
 
 .container_blog_int {
@@ -1291,7 +1291,7 @@ nav ul li a {
     display: flex;
     justify-content: center;
     width: 100%;
-    padding: 60px 0px;
+    padding: 40px 0px;
 }
 
 .container_parceiros_int {

@@ -235,7 +235,7 @@ nav ul li a {
     display: flex;
     justify-content: center;
     width: 100%;
-    padding: 80px 0px 60px 0px;
+    padding: 60px 0px 60px 0px;
     position: relative;
 }
 
@@ -895,7 +895,7 @@ button.owl-next {
     display: flex;
     justify-content: center;
     width: 100%;
-    padding: 60px 0px;
+    padding: 40px 0px;
 }
 
 .container_parceiros_int {
@@ -949,7 +949,7 @@ button.owl-next {
     background-size: cover;
     width: 100%;
     filter: drop-shadow(0 27px 28px rgba(0, 0, 0, 0.35));
-    margin: 60px 0px 60px 0px;
+    margin: 0px 0px 60px 0px;
     padding: 60px 0px 60px 0px;
 }
 
