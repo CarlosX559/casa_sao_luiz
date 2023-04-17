@@ -1187,7 +1187,17 @@ footer {
     .title_telefone {
         margin-bottom: 20px;
     }
-
+    .lista {
+        gap: 10px;
+    }
+    .info_lista h2 {
+        font-size: 14px;
+        text-align: center;
+    }
+    .info_numbers h2 {
+        font-size: 12px;
+        text-align: center;
+    }
     /*Localização*/
     .container_localizacao {
         padding: 60px 0px 60px 0px;

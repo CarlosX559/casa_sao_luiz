@@ -770,7 +770,7 @@ nav ul li a {
 .circle_historia_8:hover>.historia_text_8,
 .circle_historia_9:hover>.historia_text_9,
 .circle_historia_10:hover>.historia_text_10 {
-    max-height: initial;
+    max-height: auto;
     overflow: visible;
     animation: text 1.2s ease-in;
     animation-delay: 1.2s;

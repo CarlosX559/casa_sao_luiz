@@ -1053,10 +1053,12 @@ footer {
 
     .bg_logo_1 img {
        top: 30%;
+       max-width: 100px;
     }
 
     .bg_logo_2 img {
         top: 50%;
+        max-width: 100px;
     }
 
     .container_bg_servicos {
