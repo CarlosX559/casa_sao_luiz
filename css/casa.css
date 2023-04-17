@@ -760,6 +760,108 @@ nav ul li a {
 
 }
 
+@media (hover) {
+
+    .circle_historia_1:hover>.historia_text,
+    .circle_historia_2:hover>.historia_text_2,
+    .circle_historia_3:hover>.historia_text_3,
+    .circle_historia_4:hover>.historia_text_4,
+    .circle_historia_5:hover>.historia_text_5,
+    .circle_historia_6:hover>.historia_text_6,
+    .circle_historia_7:hover>.historia_text_7,
+    .circle_historia_8:hover>.historia_text_8,
+    .circle_historia_9:hover>.historia_text_9,
+    .circle_historia_10:hover>.historia_text_10 {
+        max-height: initial !important;
+        animation: text 1.2s ease-in;
+        animation-delay: 1.2s;
+        animation-duration: 400ms;
+        animation-fill-mode: forwards;
+    }
+
+    .circle_historia_1:hover>.border_circle {
+        width: 240px;
+        animation: border 1s ease-in;
+        animation-delay: 1.2s;
+        animation-fill-mode: forwards;
+        animation-duration: 400ms;
+    }
+
+    .circle_historia_2:hover>.border_circle_2 {
+        width: 260px;
+        animation: border_2 1s ease-in;
+        animation-delay: 1.2s;
+        animation-fill-mode: forwards;
+        animation-duration: 400ms;
+    }
+
+    .circle_historia_3:hover>.border_circle_3 {
+        width: 240px;
+        animation: border_2 1s ease-in;
+        animation-delay: 1.2s;
+        animation-fill-mode: forwards;
+        animation-duration: 400ms;
+    }
+
+    .circle_historia_4:hover>.border_circle_4 {
+        width: 260px;
+        animation: border_2 1s ease-in;
+        animation-delay: 1.2s;
+        animation-fill-mode: forwards;
+        animation-duration: 400ms;
+    }
+
+    .circle_historia_5:hover>.border_circle_5 {
+        width: 260px;
+        animation: border_2 1s ease-in;
+        animation-delay: 1.2s;
+        animation-fill-mode: forwards;
+        animation-duration: 400ms;
+    }
+
+
+    .circle_historia_6:hover>.border_circle_6 {
+        width: 260px;
+        animation: border_2 1s ease-in;
+        animation-delay: 1.2s;
+        animation-fill-mode: forwards;
+        animation-duration: 400ms;
+    }
+
+    .circle_historia_7:hover>.border_circle_7 {
+        width: 260px;
+        animation: border_2 1s ease-in;
+        animation-delay: 1.2s;
+        animation-fill-mode: forwards;
+        animation-duration: 400ms;
+    }
+
+    .circle_historia_8:hover>.border_circle_8 {
+        width: 260px;
+        animation: border_2 1s ease-in;
+        animation-delay: 1.2s;
+        animation-fill-mode: forwards;
+        animation-duration: 400ms;
+    }
+
+    .circle_historia_9:hover>.border_circle_9 {
+        width: 260px;
+        animation: border_2 1s ease-in;
+        animation-delay: 1.2s;
+        animation-fill-mode: forwards;
+        animation-duration: 400ms;
+    }
+
+    .circle_historia_10:hover>.border_circle_10 {
+        width: 260px;
+        animation: border_2 1s ease-in;
+        animation-delay: 1.2s;
+        animation-fill-mode: forwards;
+        animation-duration: 400ms;
+    }
+}
+
+
 .circle_historia_1:hover>.historia_text,
 .circle_historia_2:hover>.historia_text_2,
 .circle_historia_3:hover>.historia_text_3,
@@ -1023,6 +1125,20 @@ nav ul li a {
 
 }
 
+@media (hover) {
+    .circle_historia_1:hover>.historia_img,
+    .circle_historia_2:hover>.historia_img_2,
+    .circle_historia_3:hover>.historia_img {
+        max-height: initial;
+        overflow: visible;
+        animation: text 1.2s ease-in;
+        animation-delay: 1.8s;
+        animation-duration: 500ms;
+        animation-fill-mode: forwards;
+    }
+}
+
+
 .circle_historia_1:hover>.historia_img,
 .circle_historia_2:hover>.historia_img_2,
 .circle_historia_3:hover>.historia_img_3 {
@@ -1282,6 +1398,7 @@ nav ul li a {
     color: #F3F3F3;
     margin: 0px;
 }
+
 .formulario {
     display: flex;
     flex-direction: column;
@@ -1618,6 +1735,7 @@ footer {
 
 
 }
+
 @media(max-width: 1440px) {
 
     .container_doador {
@@ -1633,93 +1751,105 @@ footer {
         0% {
             transform: translateY(0);
         }
-    
+
         100% {
             transform: translateY(0);
-    
+
         }
-    
+
     }
-    
+
     @keyframes border_2 {
-    
+
         0% {
             transform: translateY(0);
         }
-    
+
         100% {
             transform: translateY(0);
-    
+
         }
-    
+
     }
 
     @keyframes text {
 
         0% {
             opacity: 0;
-           
+
         }
-    
+
         100% {
             opacity: 1;
-          
+
         }
-    
+
     }
+
     .border_circle {
         left: auto;
         height: 10px;
         top: 200px;
     }
+
     .border_circle_2 {
         right: auto;
         height: 10px;
         top: 200px;
     }
+
     .border_circle_3 {
         left: auto;
         height: 10px;
         top: 200px;
     }
+
     .border_circle_4 {
         right: auto;
         height: 10px;
         top: 200px;
     }
+
     .border_circle_5 {
         left: auto;
         height: 10px;
         top: 200px;
     }
+
     .border_circle_6 {
         right: auto;
         height: 10px;
         top: 200px;
     }
+
     .border_circle_7 {
         left: auto;
         height: 10px;
         top: 200px;
     }
+
     .border_circle_8 {
         right: auto;
         height: 10px;
         top: 200px;
     }
+
     .border_circle_9 {
         left: auto;
         height: 10px;
         top: 200px;
     }
+
     .border_circle_10 {
         right: auto;
         height: 10px;
         top: 200px;
     }
+
     .circle_historia_1:hover>.border_circle {
         width: 280px;
     }
+
     .historia_text {
         left: auto;
         width: 280px;
@@ -1797,7 +1927,17 @@ footer {
         top: 220px;
         display: none;
     }
-    .historia_text p, .historia_text_2 p, .historia_text_3 p, .historia_text_4 p, .historia_text_5 p, .historia_text_6 p, .historia_text_7 p, .historia_text_8 p, .historia_text_9 p, .historia_text_10 p {
+
+    .historia_text p,
+    .historia_text_2 p,
+    .historia_text_3 p,
+    .historia_text_4 p,
+    .historia_text_5 p,
+    .historia_text_6 p,
+    .historia_text_7 p,
+    .historia_text_8 p,
+    .historia_text_9 p,
+    .historia_text_10 p {
         font-size: 16px;
         text-align: center;
         line-height: 130%;
@@ -2208,6 +2348,7 @@ footer {
     .area_footer {
         padding: 0px;
     }
+
     iframe {
         width: 350px;
     }
