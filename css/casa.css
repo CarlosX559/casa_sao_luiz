@@ -2301,6 +2301,9 @@ footer {
 
 
     /*Formulario*/
+    .container_formulario {
+        margin: -35px 0px 0px 0px;
+    }
     .title_contato h2 {
         font-size: 26px;
     }
