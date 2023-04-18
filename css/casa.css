@@ -470,6 +470,8 @@ nav ul li a {
     margin-top: 40px;
 }
 
+
+
 .circle_historia_1 {
     display: flex;
     justify-content: center;
@@ -509,7 +511,7 @@ nav ul li a {
     height: 180px;
     border-radius: 400px;
     background: linear-gradient(154.15deg, rgba(152, 73, 0, 0.2) -122.21%, rgba(0, 0, 0, 0) 83.68%), #FABF13;
-  
+
 }
 
 .circle_historia_4 {
@@ -523,7 +525,7 @@ nav ul li a {
     height: 180px;
     border-radius: 400px;
     background: linear-gradient(62.66deg, rgba(0, 0, 0, 0.2) 18.38%, rgba(255, 255, 255, 0.2) 72.25%), #26295E;
-  
+
 
 }
 
@@ -553,7 +555,7 @@ nav ul li a {
     height: 180px;
     border-radius: 400px;
     background: linear-gradient(15.1deg, rgba(3, 8, 66, 0.2) -16.75%, rgba(0, 0, 0, 0) 99.59%), #4E55A9;
-  
+
 
 }
 
@@ -569,7 +571,7 @@ nav ul li a {
     height: 180px;
     border-radius: 400px;
     background: linear-gradient(17.78deg, rgba(255, 194, 16, 0.4) -134%, rgba(250, 191, 19, 0.4) 130.66%), #C59200;
-   
+
 }
 
 .circle_historia_8 {
@@ -634,10 +636,10 @@ nav ul li a {
     color: #FFFFFF;
     text-shadow: 0px 4px 9px rgba(0, 0, 0, 0.25);
     margin: 0px;
-    -webkit-user-select:none;  
-    -moz-user-select:none;     
-    -ms-user-select:none;      
-    user-select:none;  
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 @keyframes border {
@@ -665,6 +667,7 @@ nav ul li a {
     }
 
 }
+
 /*
 .circle_historia_1:hover>.border_circle {
     width: 240px;
@@ -1291,6 +1294,7 @@ nav ul li a {
 .btn_doador:hover>h2 {
     color: #2A2E68;
 }
+
 /*Parceiros*/
 .container_parceiros {
     display: flex;
@@ -1307,6 +1311,7 @@ nav ul li a {
     width: 100%;
     max-width: 800px;
 }
+
 .item {
     display: flex;
     justify-content: center;
@@ -1316,6 +1321,7 @@ nav ul li a {
     max-width: max-content;
     width: 100% !important;
 }
+
 .area_parceiros {
     display: flex;
     flex-direction: column;
@@ -1352,7 +1358,9 @@ nav ul li a {
     width: 100%;
     max-width: 230px;
 }
-.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
     width: 14px !important;
     height: 14px !important;
     border-radius: 100px;
@@ -1362,6 +1370,7 @@ nav ul li a {
     opacity: 1 !important;
 
 }
+
 .owl-theme .owl-dots .owl-dot span {
     width: 14px !important;
     height: 14px !important;
@@ -1370,8 +1379,9 @@ nav ul li a {
     transition: all ease 300ms;
     cursor: pointer;
     opacity: 0.6 !important;
-    
+
 }
+
 button:focus {
     outline: none !important;
 }
@@ -2233,20 +2243,114 @@ footer {
     .container_natureza {
         padding: 40px 0px 40px 0px;
     }
-    .historia_img_1 img {
-        width: 100%;
-        max-width: max-content;
-        display: none;
+
+    .circle_historia_1,
+    .circle_historia_2,
+    .circle_historia_3,
+    .circle_historia_4,
+    .circle_historia_5,
+    .circle_historia_6,
+    .circle_historia_7,
+    .circle_historia_8,
+    .circle_historia_9,
+    .circle_historia_10 {
+        width: 120px;
+        height: 120px;
+        right: 45px;
     }
+
+    .circle_historia_1 h2,
+    .circle_historia_2 h2,
+    .circle_historia_3 h2,
+    .circle_historia_4 h2,
+    .circle_historia_5 h2,
+    .circle_historia_6 h2,
+    .circle_historia_7 h2,
+    .circle_historia_8 h2,
+    .circle_historia_9 h2,
+    .circle_historia_10 h2 {
+        font-size: 30px;
+    }
+
+    .historia_text,
+    .historia_text_2,
+    .historia_text_3,
+    .historia_text_4,
+    .historia_text_5,
+    .historia_text_6,
+    .historia_text_7,
+    .historia_text_8,
+    .historia_text_9,
+    .historia_text_10 {
+        top: 140px;
+    }
+
+    .img_bg_circulo {
+        opacity: 0;
+        height: 3780px;
+        z-index: -1;
+        position: relative;
+    }
+
+    .historia_circulo {
+        height: 100%;
+    }
+
+    .circle_historia_5 {
+        margin-top: -80px;
+    }
+
+    .circle_historia_6 {
+        margin-top: -160px;
+    }
+
+    .circle_historia_7 {
+        margin-top: -240px;
+    }
+    .circle_historia_8 {
+        margin-top: -320px;
+    }
+    .circle_historia_9 {
+        margin-top: -400px;
+    }
+
+    .circle_historia_10 {
+        margin-top: -480px;
+    }
+
+
+    .historia_img {
+        width: 100%;
+        max-width: 100px;
+        display: flex;
+        top: 310px;
+        position: absolute;
+
+    }
+
+    .historia_img_2 {
+        right: -64px;
+        top: 290px;
+        position: absolute;
+    }
+
+    .historia_img_3 {
+        left: -64px;
+        top: 220px;
+        position: absolute;
+    }
+
     .historia_img_2 img {
         width: 100%;
-        max-width: max-content;
-        display: none;
+        max-width: 100px;
+        display: flex;
+
     }
+
     .historia_img_3 img {
         width: 100%;
-        max-width: max-content;
-        display: none;
+        max-width: 100px;
+        display: flex;
     }
 
     .bg_logo_1 img {
@@ -2302,9 +2406,11 @@ footer {
     .title_historia_container {
         width: 100%;
     }
+
     .historia_circulo {
-        margin-top: 40px;
+        margin-top: -100px;
     }
+
     .title_historia_container h2 {
         font-size: 26px;
     }
@@ -2341,6 +2447,7 @@ footer {
     .container_formulario {
         margin: -35px 0px 0px 0px;
     }
+
     .title_contato h2 {
         font-size: 26px;
     }
