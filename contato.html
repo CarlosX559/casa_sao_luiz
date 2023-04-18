@@ -28,6 +28,8 @@
         href="https://cdn-hhoal.nitrocdn.com/YfvoYztIBISLGSLaoXtynJzKBxOsfIvE/assets/images/optimized/rev-8e15d08/casasaoluiz.org.br/wp-content/uploads/2021/05/f9b56d14bc8db55ab7fe6b8661c7eecb.cropped-favicon-1.png">
     <title>Contato - Casa São Luiz</title>
     <link rel="stylesheet" href="css/contato.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
 
 
 </head>
@@ -296,9 +298,33 @@
                     <div class="border_2"></div>
                 </div>
 
-                <div class="parceiros">
-                    <img src="img/rede_abcr.png" alt="Rede abcr">
-                    <img src="img/selo_ong.png" alt="Ong apoiada">
+                <div class="owl-carousel owl-theme">
+
+                    <div class="item">
+                        <img src="img/rede_abcr.png" alt="Rede abcr">
+                    </div>
+
+                    <div class="item">
+                        <img src="img/selo_ong.png" alt="Ong apoiada">
+                    </div>
+
+                    <div class="item">
+                        <img src="img/rede_abcr.png" alt="Rede abcr">
+                    </div>
+
+                    <div class="item">
+                        <img src="img/selo_ong.png" alt="Ong apoiada">
+                    </div>
+
+                    <div class="item">
+                        <img src="img/rede_abcr.png" alt="Rede abcr">
+                    </div>
+
+                    <div class="item">
+                        <img src="img/selo_ong.png" alt="Ong apoiada">
+                    </div>
+
+
                 </div>
             </div>
         </div>
@@ -395,8 +421,34 @@
         </div>
     </div>
     <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
     <script src="js/script.js"></script>
+    <script type="text/javascript">
+        $(document).ready(() => {
 
+            $(".owl-carousel").owlCarousel({
+
+                items: 6,
+                loop: true,
+                nav: false,
+                autoplay: true,
+                autoplayTimeout: 6000,
+                responsive: {
+                    375: {
+                        items: 2
+                    },
+                    1024: {
+                        items: 3
+                    },
+                    1440: {
+                        items: 4
+                    }
+                }
+
+            });
+
+        });
+    </script>
 </body>
 
 </html>

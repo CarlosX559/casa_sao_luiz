@@ -702,8 +702,6 @@ nav ul li a {
     margin: 0px;
 }
 
-
-
 /*Parceiros*/
 .container_parceiros {
     display: flex;
@@ -716,13 +714,25 @@ nav ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     width: 100%;
+    max-width: 800px;
+}
+.item {
+    display: flex;
+    justify-content: center;
 }
 
+.item img {
+    max-width: max-content;
+    width: 100% !important;
+}
 .area_parceiros {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
 }
 
 .title_parceiros {
@@ -750,8 +760,38 @@ nav ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    width: 100%;
+    max-width: 230px;
 }
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    width: 14px !important;
+    height: 14px !important;
+    border-radius: 100px;
+    background-color: #FABF13 !important;
+    transition: all ease 300ms;
+    cursor: pointer;
+    opacity: 1 !important;
+
+}
+.owl-theme .owl-dots .owl-dot span {
+    width: 14px !important;
+    height: 14px !important;
+    border-radius: 100px;
+    background-color: #FABF13 !important;
+    transition: all ease 300ms;
+    cursor: pointer;
+    opacity: 0.6 !important;
+    
+}
+button:focus {
+    outline: none !important;
+}
+
+.no-js.owl-carousel,
+.owl-carousel.owl-loaded {
+    cursor: grab;
+}
+
 
 /*Formulario*/
 .container_formulario {
