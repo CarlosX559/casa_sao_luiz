@@ -2257,16 +2257,19 @@ footer {
     .bg_logo_2 img {
         top: 200px;
         max-width: 100px;
+        display: none;
     }
 
     .bg_logo_1_n img {
         top: 40px;
         max-width: 100px;
+        display: none;
     }
 
     .bg_logo_2_n img {
         top: 200px;
         max-width: 100px;
+        display: none;
     }
 
     .container_bg_servicos {

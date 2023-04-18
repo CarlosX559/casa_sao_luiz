@@ -1359,11 +1359,13 @@ footer {
     .bg_logo_1 img {
         top: 160px;
         max-width: 100px;
+        display: none;
     }
 
     .bg_logo_2 img {
         top: 340px;
         max-width: 100px;
+        display: none;
     }
     .container_apadrinhe {
         padding: 40px 0px 40px 0px;
